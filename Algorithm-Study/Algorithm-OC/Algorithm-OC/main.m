@@ -12,8 +12,15 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSString *str = @"i am a student";
-        NSLog(@"%@",[str ds_stringByReversed]);
+        /*
+         // 将字符串@"i am a student" 翻转为 @"student a am i"
+         NSString *str = @"i am a student";
+         NSLog(@"%@",[str ds_stringByReversed]);
+         */
+
+        /*
+         数组中重复的数字
+         */
     }
     return 0;
 }

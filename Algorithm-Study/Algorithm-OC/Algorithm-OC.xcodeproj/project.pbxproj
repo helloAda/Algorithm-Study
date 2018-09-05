@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		77243CA5212EE80A001FB151 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77243CA4212EE80A001FB151 /* main.m */; };
 		77243CAD212EEE7D001FB151 /* NSString+DSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 77243CAC212EEE7D001FB151 /* NSString+DSCategory.m */; };
-		77243CB3212F065A001FB151 /* DSLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 77243CB2212F065A001FB151 /* DSLinkedList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +28,6 @@
 		77243CA4212EE80A001FB151 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77243CAB212EEE7D001FB151 /* NSString+DSCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+DSCategory.h"; sourceTree = "<group>"; };
 		77243CAC212EEE7D001FB151 /* NSString+DSCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+DSCategory.m"; sourceTree = "<group>"; };
-		77243CB1212F065A001FB151 /* DSLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSLinkedList.h; sourceTree = "<group>"; };
-		77243CB2212F065A001FB151 /* DSLinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSLinkedList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +63,6 @@
 				77243CA4212EE80A001FB151 /* main.m */,
 				77243CAB212EEE7D001FB151 /* NSString+DSCategory.h */,
 				77243CAC212EEE7D001FB151 /* NSString+DSCategory.m */,
-				77243CB1212F065A001FB151 /* DSLinkedList.h */,
-				77243CB2212F065A001FB151 /* DSLinkedList.m */,
 			);
 			path = "Algorithm-OC";
 			sourceTree = "<group>";
@@ -128,7 +123,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77243CB3212F065A001FB151 /* DSLinkedList.m in Sources */,
 				77243CAD212EEE7D001FB151 /* NSString+DSCategory.m in Sources */,
 				77243CA5212EE80A001FB151 /* main.m in Sources */,
 			);

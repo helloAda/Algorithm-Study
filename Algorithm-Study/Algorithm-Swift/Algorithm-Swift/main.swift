@@ -8,11 +8,14 @@
 
 import Foundation
 
-// 字符串翻转
-var reverseStr = String("i am a student.".reversed())
-var strArray = reverseStr.components(separatedBy: " ")
-var result = ""
-for str in strArray {
-    result.append("\(String(str.reversed())) ")
-}
-print(result)
+/*
+ // 字符串翻转
+ var reverseStr = String("i am a student.".reversed())
+ var strArray = reverseStr.components(separatedBy: " ")
+ var result = ""
+ for str in strArray {
+ result.append("\(String(str.reversed())) ")
+ }
+ print(result)
+ */
+
