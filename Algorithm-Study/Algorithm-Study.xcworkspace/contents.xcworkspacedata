@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Algorithm-C++/Algorithm-C++.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Algorithm-Swift/Algorithm-Swift.xcodeproj">
    </FileRef>
    <FileRef
