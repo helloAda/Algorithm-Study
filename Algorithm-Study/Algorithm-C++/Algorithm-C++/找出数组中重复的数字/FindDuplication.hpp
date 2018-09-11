@@ -11,5 +11,7 @@
 
 #include <stdio.h>
 
-void findDuplication();
+namespace namespace_findDuplication {
+    void findDuplication();
+}
 #endif /* FindDuplication_hpp */

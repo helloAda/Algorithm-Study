@@ -11,5 +11,7 @@
 
 #include <stdio.h>
 
-void findDuplicationNoEdit();
+namespace namespace_findDuplicationNoEdit {
+    void findDuplicationNoEdit();
+}
 #endif /* FindDuplicationNoEdit_hpp */

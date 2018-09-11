@@ -15,49 +15,45 @@
  时间复杂度O(n) 空间复杂度O(1)
  */
 
-
-
-/**
- 找出重复的数字
-
- @param numbers 数组
- @param length 数组长度
- */
-void duplicate(int numbers[], int length) {
-    
-    // 异常的输入
-    if (numbers == nullptr || length <= 0) {
-        std::cout << "无效输入！" << std::endl;
-        return ;
-    }
-    // 检查边界范围
-    for (int i = 0 ; i < length; i++) {
-        if (numbers[i] < 0 || numbers[i] > length - 1) {
-            std::cout << "数值越界！" << std::endl;
+namespace namespace_findDuplication {
+    /**
+     找出重复的数字
+     
+     @param numbers 数组
+     @param length 数组长度
+     */
+    void duplicate(int numbers[], int length) {
+        
+        // 异常的输入
+        if (numbers == nullptr || length <= 0) {
+            std::cout << "无效输入！" << std::endl;
             return ;
         }
-    }
-    
-    for (int i = 0; i < length; i++) {
-        
-        while (numbers[i] != i) {
-            if (numbers[i] == numbers[numbers[i]] ) {
-                std::cout << "找到任意的一个重复的数字" << numbers[i] << std::endl;
+        // 检查边界范围
+        for (int i = 0 ; i < length; i++) {
+            if (numbers[i] < 0 || numbers[i] > length - 1) {
+                std::cout << "数值越界！" << std::endl;
                 return ;
-            } else {
-                int temp = numbers[i];
-                numbers[i] = numbers[temp];
-                numbers[temp] = temp;
             }
         }
+        
+        for (int i = 0; i < length; i++) {
+            
+            while (numbers[i] != i) {
+                if (numbers[i] == numbers[numbers[i]] ) {
+                    std::cout << "找到任意的一个重复的数字" << numbers[i] << std::endl;
+                    return ;
+                } else {
+                    int temp = numbers[i];
+                    numbers[i] = numbers[temp];
+                    numbers[temp] = temp;
+                }
+            }
+        }
+        std::cout << "没有重复的数字" << std::endl;
     }
-    std::cout << "没有重复的数字" << std::endl;
-}
-
-
-// ----------  测试 -----------
-
-namespace namespace_findDuplication {
+    
+    // ----------  测试 -----------
     // 有重复的数字
     void test1() {
         int numbers[] = {2, 3, 4, 3, 1};
@@ -93,14 +89,16 @@ namespace namespace_findDuplication {
         int numbers[] = {-1, 4, 5, 7, 6};
         duplicate(numbers, sizeof(numbers) / sizeof(int));
     }
+    
+    void findDuplication() {
+        test1();
+        test2();
+        test3();
+        test4();
+        test5();
+        test6();
+    }
 }
 
 
-void findDuplication() {
-    namespace_findDuplication::test1();
-    namespace_findDuplication::test2();
-    namespace_findDuplication::test3();
-    namespace_findDuplication::test4();
-    namespace_findDuplication::test5();
-    namespace_findDuplication::test6();
-}
+

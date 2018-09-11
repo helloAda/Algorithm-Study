@@ -9,9 +9,11 @@
 #include <iostream>
 #include "FindDuplication.hpp"
 #include "FindDuplicationNoEdit.hpp"
+#include "FindInPartiallySortedMatrix.hpp"
 
 int main(int argc, const char * argv[]) {
-//    findDuplication();
-    findDuplicationNoEdit();
+//    namespace_findDuplication::findDuplication();
+//    namespace_findDuplicationNoEdit::findDuplicationNoEdit();
+    namespace_findInPartiallySortedMatrix::findInPartiallySortedMatrix();
     return 0;
 }

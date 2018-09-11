@@ -19,75 +19,72 @@
  */
 
 
-
-/**
- 二分查找
-
- @param numbers 数组
- @param length 数组长度
- @param start 开始数字
- @param end 结束数字
- @return 在这个start-end范围的数字的数目
- */
-int countRange(const int* numbers, int length, int start, int end) {
-    int count = 0;
-    for (int i = 0; i < length; i++) {
-        if (numbers[i] >= start && numbers[i] <= end) {
-            count++;
+namespace namespace_findDuplicationNoEdit {
+    /**
+     二分查找
+     
+     @param numbers 数组
+     @param length 数组长度
+     @param start 开始数字
+     @param end 结束数字
+     @return 在这个start-end范围的数字的数目
+     */
+    int countRange(const int* numbers, int length, int start, int end) {
+        int count = 0;
+        for (int i = 0; i < length; i++) {
+            if (numbers[i] >= start && numbers[i] <= end) {
+                count++;
+            }
         }
-    }
-    return count;
-}
-
-/**
- 数组中重复的数字
-
- @param numbers 数组
- @param length 数组长度
- */
-void getDuplication(const int *numbers, int length) {
-    if (numbers == nullptr || length <= 0) {
-        std::cout << "无效输入！" << std::endl;
-        return;
-    }
-    for (int i = 0; i < length; i++) {
-        if (numbers[i] <= 0 || numbers[i] >= length) {
-            std::cout << "数值越界！" << std::endl;
-            return;
-        }
+        return count;
     }
     
-    int start = 1;
-    int end = length - 1;
-    while (start <= end) {
-        int mid = ((end - start) >> 1) + start;
-        std::cout << "中间值： ---"<< mid << std::endl;
-        int count = countRange(numbers, length, start, mid);
-        
-        // 找到的时候
-        if (start == end) {
-            if (count > 1) {
-                std::cout << "重复的数字" << start << std::endl;
+    /**
+     数组中重复的数字
+     
+     @param numbers 数组
+     @param length 数组长度
+     */
+    void getDuplication(const int *numbers, int length) {
+        if (numbers == nullptr || length <= 0) {
+            std::cout << "无效输入！" << std::endl;
+            return;
+        }
+        for (int i = 0; i < length; i++) {
+            if (numbers[i] <= 0 || numbers[i] >= length) {
+                std::cout << "数值越界！" << std::endl;
                 return;
-            } else {
-                break;
             }
         }
         
-        if (count > (mid - start + 1)) {
-            end = mid;
-        } else {
-            start = mid + 1;
+        int start = 1;
+        int end = length - 1;
+        while (start <= end) {
+            int mid = ((end - start) >> 1) + start;
+            int count = countRange(numbers, length, start, mid);
+            
+            // 找到的时候
+            if (start == end) {
+                if (count > 1) {
+                    std::cout << "重复的数字" << start << std::endl;
+                    return;
+                } else {
+                    break;
+                }
+            }
+            
+            if (count > (mid - start + 1)) {
+                end = mid;
+            } else {
+                start = mid + 1;
+            }
         }
+        // 加了越界判断，，走不到这里。。
+        std::cout << "没有重复的数字" << std::endl;
     }
-    // 加了越界判断，，走不到这里。。
-    std::cout << "没有重复的数字" << std::endl;
-}
-
-
-
-// -------- 测试 -----------
-namespace namespace_findDuplicationNoEdit {
+    
+    
+    // -------- 测试 -----------
     // 有重复的数字
     void test1() {
         int numbers[] = {2, 3, 4, 5, 2, 1};
@@ -123,14 +120,13 @@ namespace namespace_findDuplicationNoEdit {
         int numbers[] = {1, 2, 3, 4, 5, 6};
         getDuplication(numbers, sizeof(numbers) / sizeof(int));
     }
-}
-
-
-void findDuplicationNoEdit() {
-    namespace_findDuplicationNoEdit::test1();
-    namespace_findDuplicationNoEdit::test2();
-    namespace_findDuplicationNoEdit::test3();
-    namespace_findDuplicationNoEdit::test4();
-    namespace_findDuplicationNoEdit::test5();
-    namespace_findDuplicationNoEdit::test6();
+    
+    void findDuplicationNoEdit() {
+        test1();
+        test2();
+        test3();
+        test4();
+        test5();
+        test6();
+    }
 }
