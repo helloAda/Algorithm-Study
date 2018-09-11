@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0E2B0EA12147565800223567 /* FindInPartiallySortedMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B0E9F2147565800223567 /* FindInPartiallySortedMatrix.cpp */; };
 		0E2B0EA521476A4F00223567 /* ReplaceSpaces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B0EA321476A4F00223567 /* ReplaceSpaces.cpp */; };
+		0E2B0EAA2147B89F00223567 /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B0EA82147B89F00223567 /* List.cpp */; };
 		0E6305422146059B00753993 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E6305412146059B00753993 /* main.cpp */; };
 		0E63054B2146086A00753993 /* FindDuplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E6305492146086A00753993 /* FindDuplication.cpp */; };
 		0E63054E2146553500753993 /* FindDuplicationNoEdit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E63054C2146553500753993 /* FindDuplicationNoEdit.cpp */; };
@@ -31,6 +32,8 @@
 		0E2B0EA02147565800223567 /* FindInPartiallySortedMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindInPartiallySortedMatrix.hpp; sourceTree = "<group>"; };
 		0E2B0EA321476A4F00223567 /* ReplaceSpaces.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReplaceSpaces.cpp; sourceTree = "<group>"; };
 		0E2B0EA421476A4F00223567 /* ReplaceSpaces.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReplaceSpaces.hpp; sourceTree = "<group>"; };
+		0E2B0EA82147B89F00223567 /* List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
+		0E2B0EA92147B89F00223567 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		0E63053E2146059B00753993 /* Algorithm-C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithm-C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6305412146059B00753993 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0E6305492146086A00753993 /* FindDuplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindDuplication.cpp; sourceTree = "<group>"; };
@@ -68,6 +71,22 @@
 			path = "替换空格";
 			sourceTree = "<group>";
 		};
+		0E2B0EA62147B28B00223567 /* 从尾到头打印链表 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "从尾到头打印链表";
+			sourceTree = "<group>";
+		};
+		0E2B0EA72147B87A00223567 /* 数据结构 */ = {
+			isa = PBXGroup;
+			children = (
+				0E2B0EA82147B89F00223567 /* List.cpp */,
+				0E2B0EA92147B89F00223567 /* List.hpp */,
+			);
+			path = "数据结构";
+			sourceTree = "<group>";
+		};
 		0E6305352146059A00753993 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +106,8 @@
 		0E6305402146059B00753993 /* Algorithm-C++ */ = {
 			isa = PBXGroup;
 			children = (
+				0E2B0EA72147B87A00223567 /* 数据结构 */,
+				0E2B0EA62147B28B00223567 /* 从尾到头打印链表 */,
 				0E2B0EA221476A2500223567 /* 替换空格 */,
 				0E2B0E9E2147562D00223567 /* 二维数组中的查找 */,
 				0E6305482146074800753993 /* 找出数组中重复的数字 */,
@@ -165,6 +186,7 @@
 				0E2B0EA12147565800223567 /* FindInPartiallySortedMatrix.cpp in Sources */,
 				0E6305422146059B00753993 /* main.cpp in Sources */,
 				0E2B0EA521476A4F00223567 /* ReplaceSpaces.cpp in Sources */,
+				0E2B0EAA2147B89F00223567 /* List.cpp in Sources */,
 				0E63054E2146553500753993 /* FindDuplicationNoEdit.cpp in Sources */,
 				0E63054B2146086A00753993 /* FindDuplication.cpp in Sources */,
 			);
