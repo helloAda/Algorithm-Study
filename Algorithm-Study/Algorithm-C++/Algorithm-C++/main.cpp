@@ -10,10 +10,11 @@
 #include "FindDuplication.hpp"
 #include "FindDuplicationNoEdit.hpp"
 #include "FindInPartiallySortedMatrix.hpp"
-
+#include "ReplaceSpaces.hpp"
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
 //    namespace_findDuplicationNoEdit::findDuplicationNoEdit();
-    namespace_findInPartiallySortedMatrix::findInPartiallySortedMatrix();
+//    namespace_findInPartiallySortedMatrix::findInPartiallySortedMatrix();
+    namespace_replaceSpaces::replaceSpaces();
     return 0;
 }
