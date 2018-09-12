@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <iostream>
 
-// 创建链表
+// 创建结点
 ListNode *createListNode(int value) {
     ListNode *node = new ListNode();
     node->value = value;
@@ -19,7 +19,7 @@ ListNode *createListNode(int value) {
     return node;
 }
 
-// 连接链表
+// 连接结点
 void connectListNodes(ListNode *pCurrent, ListNode *pNext) {
     if (pCurrent == nullptr) {
         std::cout << "连接出错" << std::endl;

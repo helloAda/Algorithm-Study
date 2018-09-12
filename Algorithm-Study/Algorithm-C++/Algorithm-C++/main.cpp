@@ -11,10 +11,13 @@
 #include "FindDuplicationNoEdit.hpp"
 #include "FindInPartiallySortedMatrix.hpp"
 #include "ReplaceSpaces.hpp"
+#include "PrintListInReversedOrder.hpp"
+
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
 //    namespace_findDuplicationNoEdit::findDuplicationNoEdit();
 //    namespace_findInPartiallySortedMatrix::findInPartiallySortedMatrix();
-    namespace_replaceSpaces::replaceSpaces();
+//    namespace_replaceSpaces::replaceSpaces();
+    namespace_printListInReversedOrder::printListInReversedOrder();
     return 0;
 }

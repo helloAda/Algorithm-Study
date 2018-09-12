@@ -15,10 +15,10 @@ struct ListNode {
     ListNode *next;
 };
 
-// 创建链表
+// 创建结点
 ListNode *createListNode(int value);
 
-// 连接链表
+// 连接结点
 void connectListNodes(ListNode *pCurrent, ListNode *pNext);
 
 // 打印结点
