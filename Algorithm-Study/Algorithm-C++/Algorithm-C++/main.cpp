@@ -12,12 +12,14 @@
 #include "FindInPartiallySortedMatrix.hpp"
 #include "ReplaceSpaces.hpp"
 #include "PrintListInReversedOrder.hpp"
+#include "ConstructBinaryTree.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
 //    namespace_findDuplicationNoEdit::findDuplicationNoEdit();
 //    namespace_findInPartiallySortedMatrix::findInPartiallySortedMatrix();
 //    namespace_replaceSpaces::replaceSpaces();
-    namespace_printListInReversedOrder::printListInReversedOrder();
+//    namespace_printListInReversedOrder::printListInReversedOrder();
+    namespace_constructBinaryTree::constructBinaryTree();
     return 0;
 }
