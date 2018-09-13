@@ -9,7 +9,7 @@
 #include "BinaryTreeNode.hpp"
 #include <iostream>
 
-// 创建结点
+// 创建节点
 BinaryTreeNode *createBinaryTreeNode(int value) {
     BinaryTreeNode *node = new BinaryTreeNode();
     node->value = value;
@@ -18,7 +18,7 @@ BinaryTreeNode *createBinaryTreeNode(int value) {
     return node;
 }
 
-// 连接结点
+// 连接节点
 void connectTreeNodes(BinaryTreeNode *parent, BinaryTreeNode *left, BinaryTreeNode *right) {
     if (parent != nullptr) {
         parent->left = left;
@@ -26,21 +26,21 @@ void connectTreeNodes(BinaryTreeNode *parent, BinaryTreeNode *left, BinaryTreeNo
     }
 }
 
-// 打印结点
+// 打印节点
 void printTreeNode(const BinaryTreeNode *node) {
     if (node != nullptr) {
         
-        std::cout << "这个结点的值：" << node->value << std::endl;
+        std::cout << "这个节点的值：" << node->value << std::endl;
         if (node->left != nullptr) {
-            std::cout << "这个结点的左子结点的的值：" << node->left->value << std::endl;
+            std::cout << "这个节点的左子结点的的值：" << node->left->value << std::endl;
         } else {
-            std::cout << "这个结点没有左子结点" <<std::endl;
+            std::cout << "这个节点没有左子结点" <<std::endl;
         }
         
         if (node->right != nullptr) {
-            std::cout << "这个结点的右子结点的的值：" << node->right->value << std::endl;
+            std::cout << "这个节点的右子结点的的值：" << node->right->value << std::endl;
         } else {
-            std::cout << "这个结点没有右子结点" <<std::endl;
+            std::cout << "这个节点没有右子结点" <<std::endl;
         }
         
     } else {

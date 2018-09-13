@@ -15,13 +15,13 @@ struct ListNode {
     ListNode *next;
 };
 
-// 创建结点
+// 创建节点
 ListNode *createListNode(int value);
 
-// 连接结点
+// 连接节点
 void connectListNodes(ListNode *pCurrent, ListNode *pNext);
 
-// 打印结点
+// 打印节点
 void printListNode(ListNode *node);
 
 // 打印链表
@@ -30,10 +30,10 @@ void printList(ListNode *head);
 // 销毁链表
 void destoryList(ListNode *head);
 
-// 添加结点到末尾
+// 添加节点到末尾
 void addToTail(ListNode **head, int value);
 
-// 删除结点
+// 删除节点
 void removeNode(ListNode **head, int value);
 
 #endif /* List_hpp */

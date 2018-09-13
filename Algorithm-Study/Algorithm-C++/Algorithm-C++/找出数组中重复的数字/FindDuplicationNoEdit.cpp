@@ -85,40 +85,47 @@ namespace namespace_findDuplicationNoEdit {
     
     
     // -------- 测试 -----------
+    
+    void test(int *numbers, int length) {
+        std::cout << "==== 测试开始 ====" << std::endl;
+        getDuplication(numbers, length);
+        std::cout << "==== 测试结束 ====" << std::endl;
+    }
+    
     // 有重复的数字
     void test1() {
         int numbers[] = {2, 3, 4, 5, 2, 1};
-        getDuplication(numbers, sizeof(numbers) / sizeof(int));
+        test(numbers, sizeof(numbers) / sizeof(int));
     }
     
     // 多个重复的数字
     void test2() {
         int numbers[] = {2, 3, 2, 4, 5, 5, 4};
-        getDuplication(numbers, sizeof(numbers) / sizeof(int));
+        test(numbers, sizeof(numbers) / sizeof(int));
     }
     
     // 空数组
     void test3() {
         int numbers[] = {};
-        getDuplication(numbers, sizeof(numbers) / sizeof(int));
+        test(numbers, sizeof(numbers) / sizeof(int));
     }
     
     // 空指针
     void test4() {
         int *numbers = nullptr;
-        getDuplication(numbers, sizeof(numbers) / sizeof(int));
+        test(numbers, sizeof(numbers) / sizeof(int));
     }
     
     // 越界的数据
     void test5() {
         int numbers[] = {-3, 2, 8, 9, 5, 6};
-        getDuplication(numbers, sizeof(numbers) / sizeof(int));
+        test(numbers, sizeof(numbers) / sizeof(int));
     }
     
     // 对于这题，没有重复的数字，那么其实就是会有越界数据存在
     void test6() {
         int numbers[] = {1, 2, 3, 4, 5, 6};
-        getDuplication(numbers, sizeof(numbers) / sizeof(int));
+        test(numbers, sizeof(numbers) / sizeof(int));
     }
     
     void findDuplicationNoEdit() {

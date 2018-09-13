@@ -29,7 +29,7 @@ namespace namespace_constructBinaryTree {
      @return 二叉树
      */
     BinaryTreeNode *constructCore(int *startPreorder, int *endPreorder, int *startInorder, int *endInorder) {
-        // 根结点
+        // 根节点
         int rootValue = startPreorder[0];
         BinaryTreeNode *root = new BinaryTreeNode();
         root->value = rootValue;
@@ -44,7 +44,7 @@ namespace namespace_constructBinaryTree {
             }
         }
         
-        // 在中序遍历中找到根结点的值
+        // 在中序遍历中找到根节点的值
         int *rootInrorder = startInorder;
         while (rootInrorder <= endInorder && *rootInrorder != rootValue) {
             rootInrorder++;
@@ -58,12 +58,12 @@ namespace namespace_constructBinaryTree {
         int leftlength = (int)(rootInrorder - startInorder);
         int *leftPreorderEnd = startPreorder + leftlength;
         
-        // 如果还有左子结点 构建左子树
+        // 如果还有左子节点 构建左子树
         if (leftlength > 0) {
             root->left = constructCore(startPreorder + 1, leftPreorderEnd, startInorder, rootInrorder - 1);
         }
         
-        // 如果还有右子结点 构建右子树
+        // 如果还有右子节点 构建右子树
         if (leftlength < endInorder - startInorder) {
             root->right = constructCore(leftPreorderEnd + 1, endPreorder, rootInrorder + 1, endInorder);
         }
@@ -95,12 +95,18 @@ namespace namespace_constructBinaryTree {
     
     
     // ---- 测试 -----
+    
+    void test(int *preorder, int *inorder, int length) {
+        std::cout << "==== 测试开始 ====" << std::endl;
+        construct(preorder, inorder, length);
+        std::cout << "==== 测试结束 ====" << std::endl;
+    }
     // 普通二叉树
     void test1() {
         const int length = 8;
         int preorder[length] = {1, 2, 4, 7, 3, 5, 6, 8};
         int inorder[length] = {4, 7, 2, 1, 5, 3, 8, 6};
-        construct(preorder, inorder, length);
+        test(preorder, inorder, length);
     }
     
     // 完全二叉树
@@ -108,33 +114,33 @@ namespace namespace_constructBinaryTree {
         const int length = 7;
         int preorder[length] = {1, 2, 4, 5, 3, 6, 7};
         int inorder[length] = {4, 2, 5, 1, 6, 3, 7};
-        construct(preorder, inorder, length);
+        test(preorder, inorder, length);
     }
     
-    // 只有左子结点
+    // 只有左子节点
     void test3() {
         const int length = 5;
         int preorder[length] = {1, 2, 3, 4, 5};
         int inorder[length] = {5, 4, 3, 2, 1};
-        construct(preorder, inorder, length);
+        test(preorder, inorder, length);
 
     }
     
-    // 只有右子结点
+    // 只有右子节点
     void test4() {
         const int length = 5;
         int preorder[length] = {1, 2, 3, 4, 5};
         int inorder[length] = {1, 2, 3, 4, 5};
-        construct(preorder, inorder, length);
+        test(preorder, inorder, length);
 
     }
     
-    // 只有根结点
+    // 只有根节点
     void test5() {
         const int length = 1;
         int preorder[length] = {1};
         int inorder[length] = {1};
-        construct(preorder, inorder, length);
+        test(preorder, inorder, length);
 
     }
     
@@ -143,12 +149,12 @@ namespace namespace_constructBinaryTree {
         const int length = 7;
         int preorder[length] = {1, 2, 4, 5, 3, 6, 7};
         int inorder[length] = {4, 2, 8, 1, 6, 3, 7};
-        construct(preorder, inorder, length);
+        test(preorder, inorder, length);
 
     }
     // 空指针
     void test7() {
-        construct(nullptr, nullptr, 0);
+        test(nullptr, nullptr, 0);
 
     }
     

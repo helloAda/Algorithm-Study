@@ -20,7 +20,7 @@ namespace namespace_printListInReversedOrder {
     
     // 用栈实现
     void PrintListReversingly_Iteratively(ListNode *head) {
-        // 存放结点的栈
+        // 存放节点的栈
         std::stack<ListNode *> nodes;
         ListNode *node = head;
         while (node != nullptr) {
@@ -30,7 +30,7 @@ namespace namespace_printListInReversedOrder {
         
         while (!nodes.empty()) {
             node = nodes.top();
-            std::cout << "结点数据：" << node->value << std::endl;
+            std::cout << "节点数据：" << node->value << std::endl;
             nodes.pop();
         }
     }
@@ -41,8 +41,17 @@ namespace namespace_printListInReversedOrder {
             if (head->next != nullptr) {
                 PrintListReversingly_Recursively(head->next);
             }
-            std::cout << "结点数据：" << head->value << std::endl;
+            std::cout << "节点数据：" << head->value << std::endl;
         }
+    }
+    
+    
+    // ----- 测试 -----
+    void test(ListNode *head) {
+        std::cout << "==== 测试开始 ====" << std::endl;
+        PrintListReversingly_Iteratively(head);
+//        PrintListReversingly_Recursively(head);
+        std::cout << "==== 测试结束 ====" << std::endl;
     }
 
     // 正常数据
@@ -58,7 +67,7 @@ namespace namespace_printListInReversedOrder {
         connectListNodes(node3, node4);
         connectListNodes(node4, node5);
         
-        PrintListReversingly_Iteratively(node1);
+        test(node1);
         
         destoryList(node1);
     }
@@ -67,7 +76,7 @@ namespace namespace_printListInReversedOrder {
     void test2() {
         ListNode *node = createListNode(3);
         
-        PrintListReversingly_Iteratively(node);
+        test(node);
         
         destoryList(node);
         
@@ -75,7 +84,7 @@ namespace namespace_printListInReversedOrder {
     
     // 空链表
     void test3() {
-        PrintListReversingly_Iteratively(nullptr);
+        test(nullptr);
     }
     
     void printListInReversedOrder() {

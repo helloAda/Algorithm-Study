@@ -54,40 +54,47 @@ namespace namespace_findDuplication {
     }
     
     // ----------  测试 -----------
+    
+    void test(int *numbers, int length) {
+        std::cout << "==== 测试开始 ====" << std::endl;
+        duplicate(numbers, length);
+        std::cout << "==== 测试结束 ====" << std::endl;
+    }
+    
     // 有重复的数字
     void test1() {
         int numbers[] = {2, 3, 4, 3, 1};
-        duplicate(numbers, sizeof(numbers) / sizeof(int));
+        test(numbers, sizeof(numbers) / sizeof(int));
     }
     
     // 没有重复的数字
     void test2() {
         int numbers[] = {1, 2, 4, 0, 3};
-        duplicate(numbers, sizeof(numbers) / sizeof(int));
+        test(numbers, sizeof(numbers) / sizeof(int));
     }
     
     // 有多个重复的数字
     void test3() {
         int numbers[] = {2, 3, 2, 3, 4};
-        duplicate(numbers, sizeof(numbers) / sizeof(int));
+        test(numbers, sizeof(numbers) / sizeof(int));
     }
     
     // 空输入
     void test4() {
         int numbers[] = {};
-        duplicate(numbers, sizeof(numbers) / sizeof(int));
+        test(numbers, sizeof(numbers) / sizeof(int));
     }
     
     // 无效输入
     void test5() {
         int *numbers = nullptr;
-        duplicate(numbers, sizeof(numbers) / sizeof(int));
+        test(numbers, sizeof(numbers) / sizeof(int));
     }
     
     // 越界数据
     void test6() {
         int numbers[] = {-1, 4, 5, 7, 6};
-        duplicate(numbers, sizeof(numbers) / sizeof(int));
+        test(numbers, sizeof(numbers) / sizeof(int));
     }
     
     void findDuplication() {

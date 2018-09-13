@@ -16,13 +16,13 @@ struct BinaryTreeNode {
     BinaryTreeNode *right;
 };
 
-// 创建结点
+// 创建节点
 BinaryTreeNode *createBinaryTreeNode(int value);
 
-// 连接结点
+// 连接节点
 void connectTreeNodes(BinaryTreeNode *parent, BinaryTreeNode *left, BinaryTreeNode *right);
 
-// 打印结点
+// 打印节点
 void printTreeNode(const BinaryTreeNode *node);
 
 // 打印二叉树

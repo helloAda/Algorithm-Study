@@ -58,44 +58,50 @@ namespace namespace_replaceSpaces {
     
     // ------ 测试 --------
     
+    void test (char str[], int length) {
+        std::cout << "==== 测试开始 ====" << std::endl;
+        replaceBlank(str, length);
+        std::cout << "==== 测试结束 ====" << std::endl;
+    }
+    
     // 空格在开始
     void test1() {
         const int length = 100;
         char str[length] = " helloworld";
-        replaceBlank(str, length);
+        test(str, length);
     }
     
     // 空格在中间
     void test2() {
         const int length = 100;
         char str[length] = "hello world";
-        replaceBlank(str, length);
+        test(str, length);
     }
     
     // 空格在末尾
     void test3() {
         const int length = 100;
         char str[length] = "helloworld ";
-        replaceBlank(str, length);
+        test(str, length);
     }
     
     // 连续空格 多个空格
     void test4() {
         const int length = 100;
         char str[length] = "hello  world ";
-        replaceBlank(str, length);
+        test(str, length);
     }
     
     // 空指针
     void test5() {
-        replaceBlank(nullptr, 0);
+        test(nullptr, 0);
     }
     
     // 超过容量
     void test6() {
         const int length = 12;
         char str[length] = "hello world";
-        replaceBlank(str, length);
+        test(str, length);
     }
     
     

@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <iostream>
 
-// 创建结点
+// 创建节点
 ListNode *createListNode(int value) {
     ListNode *node = new ListNode();
     node->value = value;
@@ -19,7 +19,7 @@ ListNode *createListNode(int value) {
     return node;
 }
 
-// 连接结点
+// 连接节点
 void connectListNodes(ListNode *pCurrent, ListNode *pNext) {
     if (pCurrent == nullptr) {
         std::cout << "连接出错" << std::endl;
@@ -28,12 +28,12 @@ void connectListNodes(ListNode *pCurrent, ListNode *pNext) {
     pCurrent->next = pNext;
 }
 
-// 打印结点
+// 打印节点
 void printListNode(ListNode *node) {
     if (node == nullptr) {
         std::cout << "这是一个空指针" << std::endl;
     } else {
-        std::cout << "结点的值：" << node->value << std::endl;
+        std::cout << "节点的值：" << node->value << std::endl;
     }
 }
 
@@ -59,7 +59,7 @@ void destoryList(ListNode *head) {
 }
 
 
-// 添加结点到末尾
+// 添加节点到末尾
 void addToTail(ListNode **head, int value) {
     ListNode *pNew = new ListNode();
     pNew->value = value;
@@ -77,7 +77,7 @@ void addToTail(ListNode **head, int value) {
     }
 }
 
-// 删除结点
+// 删除节点
 void removeNode(ListNode **head, int value) {
     if (head == nullptr || *head == nullptr) {
         return;

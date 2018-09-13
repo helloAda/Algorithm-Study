@@ -48,33 +48,41 @@ namespace namespace_findInPartiallySortedMatrix {
         std::cout << "数不存在" << std::endl;
     }
     
+    // ---- 测试 -------
+    
+    void test(int* matrix, int rows, int columns, int number) {
+        std::cout << "==== 测试开始 ====" << std::endl;
+        find(matrix, rows, columns, number);
+        std::cout << "==== 测试结束 ====" << std::endl;
+    }
+    
     // 是最大的数
     void test1() {
         int matrix[][4] = {{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
-        find((int *)matrix, 4, 4, 15);
+        test((int *)matrix, 4, 4, 15);
     }
     
     // 是最小的数
     void test2() {
         int matrix[][4] = {{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
-        find((int *)matrix, 4, 4, 1);
+        test((int *)matrix, 4, 4, 1);
     }
     
     // 数不存在
     void test3() {
         int matrix[][4] = {{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
-        find((int *)matrix, 4, 4, 18);
+        test((int *)matrix, 4, 4, 18);
     }
     
     // 正常查找
     void test4() {
         int matrix[][4] = {{1, 2, 8, 9}, {2, 4, 9, 12}, {4, 7, 10, 13}, {6, 8, 11, 15}};
-        find((int *)matrix, 4, 4, 7);
+        test((int *)matrix, 4, 4, 7);
     }
     
     // 空指针的情况
     void test5() {
-        find(nullptr, 0, 0, 20);
+        test(nullptr, 0, 0, 20);
     }
     
     void findInPartiallySortedMatrix() {
