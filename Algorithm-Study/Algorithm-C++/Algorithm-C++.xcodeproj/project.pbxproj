@@ -14,6 +14,7 @@
 		0E2B0EB02148A8CD00223567 /* BinaryTreeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B0EAE2148A8CD00223567 /* BinaryTreeNode.cpp */; };
 		0E2B0EB42148B2DF00223567 /* ConstructBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B0EB22148B2DF00223567 /* ConstructBinaryTree.cpp */; };
 		0E2B0EB8214910B500223567 /* NextNodeInBinaryTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B0EB6214910B500223567 /* NextNodeInBinaryTrees.cpp */; };
+		0E2B0EBF214A445700223567 /* QueueWithTwoStacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B0EBD214A445700223567 /* QueueWithTwoStacks.cpp */; };
 		0E6305422146059B00753993 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E6305412146059B00753993 /* main.cpp */; };
 		0E63054B2146086A00753993 /* FindDuplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E6305492146086A00753993 /* FindDuplication.cpp */; };
 		0E63054E2146553500753993 /* FindDuplicationNoEdit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E63054C2146553500753993 /* FindDuplicationNoEdit.cpp */; };
@@ -46,6 +47,8 @@
 		0E2B0EB32148B2DF00223567 /* ConstructBinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ConstructBinaryTree.hpp; sourceTree = "<group>"; };
 		0E2B0EB6214910B500223567 /* NextNodeInBinaryTrees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NextNodeInBinaryTrees.cpp; sourceTree = "<group>"; };
 		0E2B0EB7214910B500223567 /* NextNodeInBinaryTrees.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NextNodeInBinaryTrees.hpp; sourceTree = "<group>"; };
+		0E2B0EBD214A445700223567 /* QueueWithTwoStacks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QueueWithTwoStacks.cpp; sourceTree = "<group>"; };
+		0E2B0EBE214A445700223567 /* QueueWithTwoStacks.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QueueWithTwoStacks.hpp; sourceTree = "<group>"; };
 		0E63053E2146059B00753993 /* Algorithm-C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithm-C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6305412146059B00753993 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0E6305492146086A00753993 /* FindDuplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindDuplication.cpp; sourceTree = "<group>"; };
@@ -121,6 +124,15 @@
 			path = "二叉树的下一个节点";
 			sourceTree = "<group>";
 		};
+		0E2B0EB9214A410200223567 /* 用两个栈实现队列 */ = {
+			isa = PBXGroup;
+			children = (
+				0E2B0EBD214A445700223567 /* QueueWithTwoStacks.cpp */,
+				0E2B0EBE214A445700223567 /* QueueWithTwoStacks.hpp */,
+			);
+			path = "用两个栈实现队列";
+			sourceTree = "<group>";
+		};
 		0E6305352146059A00753993 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +152,7 @@
 		0E6305402146059B00753993 /* Algorithm-C++ */ = {
 			isa = PBXGroup;
 			children = (
+				0E2B0EB9214A410200223567 /* 用两个栈实现队列 */,
 				0E2B0EB521490EE000223567 /* 二叉树的下一个节点 */,
 				0E2B0EB12148B29F00223567 /* 重建二叉树 */,
 				0E2B0EA62147B28B00223567 /* 从尾到头打印链表 */,
@@ -225,6 +238,7 @@
 				0E6305422146059B00753993 /* main.cpp in Sources */,
 				0E2B0EA521476A4F00223567 /* ReplaceSpaces.cpp in Sources */,
 				0E2B0EAA2147B89F00223567 /* List.cpp in Sources */,
+				0E2B0EBF214A445700223567 /* QueueWithTwoStacks.cpp in Sources */,
 				0E2B0EAD21489C5000223567 /* PrintListInReversedOrder.cpp in Sources */,
 				0E63054E2146553500753993 /* FindDuplicationNoEdit.cpp in Sources */,
 				0E2B0EB02148A8CD00223567 /* BinaryTreeNode.cpp in Sources */,

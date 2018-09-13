@@ -14,6 +14,7 @@
 #include "PrintListInReversedOrder.hpp"
 #include "ConstructBinaryTree.hpp"
 #include "NextNodeInBinaryTrees.hpp"
+#include "QueueWithTwoStacks.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -22,6 +23,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_replaceSpaces::replaceSpaces();
 //    namespace_printListInReversedOrder::printListInReversedOrder();
 //    namespace_constructBinaryTree::constructBinaryTree();
-    namespace_nextNodeInBinaryTrees::nextNodeInBinaryTrees();
+//    namespace_nextNodeInBinaryTrees::nextNodeInBinaryTrees();
+    namespace_QueueWithTwoStacks::queueWithTwoStacks();
     return 0;
 }
