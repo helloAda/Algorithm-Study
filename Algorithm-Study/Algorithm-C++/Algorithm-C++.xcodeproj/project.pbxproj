@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E15D1602152508400136AB6 /* Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E15D15E2152508400136AB6 /* Fibonacci.cpp */; };
 		0E2B0EA12147565800223567 /* FindInPartiallySortedMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B0E9F2147565800223567 /* FindInPartiallySortedMatrix.cpp */; };
 		0E2B0EA521476A4F00223567 /* ReplaceSpaces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B0EA321476A4F00223567 /* ReplaceSpaces.cpp */; };
 		0E2B0EAA2147B89F00223567 /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B0EA82147B89F00223567 /* List.cpp */; };
@@ -33,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E15D15E2152508400136AB6 /* Fibonacci.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Fibonacci.cpp; sourceTree = "<group>"; };
+		0E15D15F2152508400136AB6 /* Fibonacci.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Fibonacci.hpp; sourceTree = "<group>"; };
 		0E2B0E9F2147565800223567 /* FindInPartiallySortedMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindInPartiallySortedMatrix.cpp; sourceTree = "<group>"; };
 		0E2B0EA02147565800223567 /* FindInPartiallySortedMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindInPartiallySortedMatrix.hpp; sourceTree = "<group>"; };
 		0E2B0EA321476A4F00223567 /* ReplaceSpaces.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReplaceSpaces.cpp; sourceTree = "<group>"; };
@@ -68,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E15D15D2152504800136AB6 /* 斐波那契数列 */ = {
+			isa = PBXGroup;
+			children = (
+				0E15D15E2152508400136AB6 /* Fibonacci.cpp */,
+				0E15D15F2152508400136AB6 /* Fibonacci.hpp */,
+			);
+			path = "斐波那契数列";
+			sourceTree = "<group>";
+		};
 		0E2B0E9E2147562D00223567 /* 二维数组中的查找 */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +164,7 @@
 		0E6305402146059B00753993 /* Algorithm-C++ */ = {
 			isa = PBXGroup;
 			children = (
+				0E15D15D2152504800136AB6 /* 斐波那契数列 */,
 				0E2B0EB9214A410200223567 /* 用两个栈实现队列 */,
 				0E2B0EB521490EE000223567 /* 二叉树的下一个节点 */,
 				0E2B0EB12148B29F00223567 /* 重建二叉树 */,
@@ -232,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E15D1602152508400136AB6 /* Fibonacci.cpp in Sources */,
 				0E2B0EB8214910B500223567 /* NextNodeInBinaryTrees.cpp in Sources */,
 				0E2B0EB42148B2DF00223567 /* ConstructBinaryTree.cpp in Sources */,
 				0E2B0EA12147565800223567 /* FindInPartiallySortedMatrix.cpp in Sources */,

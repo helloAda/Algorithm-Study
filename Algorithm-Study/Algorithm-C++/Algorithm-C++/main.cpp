@@ -15,6 +15,7 @@
 #include "ConstructBinaryTree.hpp"
 #include "NextNodeInBinaryTrees.hpp"
 #include "QueueWithTwoStacks.hpp"
+#include "Fibonacci.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -24,6 +25,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_printListInReversedOrder::printListInReversedOrder();
 //    namespace_constructBinaryTree::constructBinaryTree();
 //    namespace_nextNodeInBinaryTrees::nextNodeInBinaryTrees();
-    namespace_QueueWithTwoStacks::queueWithTwoStacks();
+//    namespace_QueueWithTwoStacks::queueWithTwoStacks();
+    namespace_fibonacci::fibonacci();
     return 0;
 }
