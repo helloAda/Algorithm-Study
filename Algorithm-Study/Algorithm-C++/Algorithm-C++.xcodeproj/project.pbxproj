@@ -19,6 +19,7 @@
 		0E6305422146059B00753993 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E6305412146059B00753993 /* main.cpp */; };
 		0E63054B2146086A00753993 /* FindDuplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E6305492146086A00753993 /* FindDuplication.cpp */; };
 		0E63054E2146553500753993 /* FindDuplicationNoEdit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E63054C2146553500753993 /* FindDuplicationNoEdit.cpp */; };
+		0EAC27FF215B7DD7008A290C /* MinNumberInRotatedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC27FD215B7DD7008A290C /* MinNumberInRotatedArray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +59,8 @@
 		0E63054A2146086A00753993 /* FindDuplication.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindDuplication.hpp; sourceTree = "<group>"; };
 		0E63054C2146553500753993 /* FindDuplicationNoEdit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindDuplicationNoEdit.cpp; sourceTree = "<group>"; };
 		0E63054D2146553500753993 /* FindDuplicationNoEdit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindDuplicationNoEdit.hpp; sourceTree = "<group>"; };
+		0EAC27FD215B7DD7008A290C /* MinNumberInRotatedArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinNumberInRotatedArray.cpp; sourceTree = "<group>"; };
+		0EAC27FE215B7DD7008A290C /* MinNumberInRotatedArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinNumberInRotatedArray.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E0BFFDD2155D19E00E6757B /* 旋转数组的最小数字 */ = {
+			isa = PBXGroup;
+			children = (
+				0EAC27FD215B7DD7008A290C /* MinNumberInRotatedArray.cpp */,
+				0EAC27FE215B7DD7008A290C /* MinNumberInRotatedArray.hpp */,
+			);
+			path = "旋转数组的最小数字";
+			sourceTree = "<group>";
+		};
 		0E15D15D2152504800136AB6 /* 斐波那契数列 */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +176,7 @@
 		0E6305402146059B00753993 /* Algorithm-C++ */ = {
 			isa = PBXGroup;
 			children = (
+				0E0BFFDD2155D19E00E6757B /* 旋转数组的最小数字 */,
 				0E15D15D2152504800136AB6 /* 斐波那契数列 */,
 				0E2B0EB9214A410200223567 /* 用两个栈实现队列 */,
 				0E2B0EB521490EE000223567 /* 二叉树的下一个节点 */,
@@ -249,6 +262,7 @@
 				0E2B0EB8214910B500223567 /* NextNodeInBinaryTrees.cpp in Sources */,
 				0E2B0EB42148B2DF00223567 /* ConstructBinaryTree.cpp in Sources */,
 				0E2B0EA12147565800223567 /* FindInPartiallySortedMatrix.cpp in Sources */,
+				0EAC27FF215B7DD7008A290C /* MinNumberInRotatedArray.cpp in Sources */,
 				0E6305422146059B00753993 /* main.cpp in Sources */,
 				0E2B0EA521476A4F00223567 /* ReplaceSpaces.cpp in Sources */,
 				0E2B0EAA2147B89F00223567 /* List.cpp in Sources */,

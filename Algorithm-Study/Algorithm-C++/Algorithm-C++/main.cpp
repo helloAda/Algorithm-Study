@@ -16,6 +16,7 @@
 #include "NextNodeInBinaryTrees.hpp"
 #include "QueueWithTwoStacks.hpp"
 #include "Fibonacci.hpp"
+#include "MinNumberInRotatedArray.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -26,6 +27,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_constructBinaryTree::constructBinaryTree();
 //    namespace_nextNodeInBinaryTrees::nextNodeInBinaryTrees();
 //    namespace_QueueWithTwoStacks::queueWithTwoStacks();
-    namespace_fibonacci::fibonacci();
+//    namespace_fibonacci::fibonacci();
+    namespace_minNumberInRotatedArray::minNumberInRotatedArray();
     return 0;
 }
