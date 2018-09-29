@@ -17,6 +17,7 @@
 #include "QueueWithTwoStacks.hpp"
 #include "Fibonacci.hpp"
 #include "MinNumberInRotatedArray.hpp"
+#include "StringPathInMatrix.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -28,6 +29,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_nextNodeInBinaryTrees::nextNodeInBinaryTrees();
 //    namespace_QueueWithTwoStacks::queueWithTwoStacks();
 //    namespace_fibonacci::fibonacci();
-    namespace_minNumberInRotatedArray::minNumberInRotatedArray();
+//    namespace_minNumberInRotatedArray::minNumberInRotatedArray();
+    namespace_stringPathInMatrix::stringPathInMatrix();
     return 0;
 }
