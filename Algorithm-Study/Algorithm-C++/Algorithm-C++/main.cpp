@@ -19,6 +19,7 @@
 #include "MinNumberInRotatedArray.hpp"
 #include "StringPathInMatrix.hpp"
 #include "RobotMove.hpp"
+#include "CuttingRope.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -32,6 +33,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_fibonacci::fibonacci();
 //    namespace_minNumberInRotatedArray::minNumberInRotatedArray();
 //    namespace_stringPathInMatrix::stringPathInMatrix();
-    namespace_robotMove::robotMove();
+//    namespace_robotMove::robotMove();
+    namespace_cuttingRope::cuttingRope();
     return 0;
 }

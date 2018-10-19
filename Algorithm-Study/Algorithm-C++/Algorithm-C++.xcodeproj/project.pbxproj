@@ -19,6 +19,7 @@
 		0E6305422146059B00753993 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E6305412146059B00753993 /* main.cpp */; };
 		0E63054B2146086A00753993 /* FindDuplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E6305492146086A00753993 /* FindDuplication.cpp */; };
 		0E63054E2146553500753993 /* FindDuplicationNoEdit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E63054C2146553500753993 /* FindDuplicationNoEdit.cpp */; };
+		0E853FC02179BDD500031793 /* CuttingRope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E853FBE2179BDD500031793 /* CuttingRope.cpp */; };
 		0E914A522160581E001BB289 /* RobotMove.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E914A502160581E001BB289 /* RobotMove.cpp */; };
 		0EAC27FF215B7DD7008A290C /* MinNumberInRotatedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC27FD215B7DD7008A290C /* MinNumberInRotatedArray.cpp */; };
 		0ECB3739215EFE8F0035BE5D /* StringPathInMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB3737215EFE8F0035BE5D /* StringPathInMatrix.cpp */; };
@@ -61,6 +62,8 @@
 		0E63054A2146086A00753993 /* FindDuplication.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindDuplication.hpp; sourceTree = "<group>"; };
 		0E63054C2146553500753993 /* FindDuplicationNoEdit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindDuplicationNoEdit.cpp; sourceTree = "<group>"; };
 		0E63054D2146553500753993 /* FindDuplicationNoEdit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindDuplicationNoEdit.hpp; sourceTree = "<group>"; };
+		0E853FBE2179BDD500031793 /* CuttingRope.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CuttingRope.cpp; sourceTree = "<group>"; };
+		0E853FBF2179BDD500031793 /* CuttingRope.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CuttingRope.hpp; sourceTree = "<group>"; };
 		0E914A502160581E001BB289 /* RobotMove.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RobotMove.cpp; sourceTree = "<group>"; };
 		0E914A512160581E001BB289 /* RobotMove.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RobotMove.hpp; sourceTree = "<group>"; };
 		0EAC27FD215B7DD7008A290C /* MinNumberInRotatedArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinNumberInRotatedArray.cpp; sourceTree = "<group>"; };
@@ -182,6 +185,7 @@
 		0E6305402146059B00753993 /* Algorithm-C++ */ = {
 			isa = PBXGroup;
 			children = (
+				0E853FBD2179BB7D00031793 /* 剪绳子 */,
 				0E914A4F216056D3001BB289 /* 机器人的运动范围 */,
 				0EAC2800215CBC65008A290C /* 矩阵中的路径 */,
 				0E0BFFDD2155D19E00E6757B /* 旋转数组的最小数字 */,
@@ -208,6 +212,15 @@
 				0E63054D2146553500753993 /* FindDuplicationNoEdit.hpp */,
 			);
 			path = "找出数组中重复的数字";
+			sourceTree = "<group>";
+		};
+		0E853FBD2179BB7D00031793 /* 剪绳子 */ = {
+			isa = PBXGroup;
+			children = (
+				0E853FBE2179BDD500031793 /* CuttingRope.cpp */,
+				0E853FBF2179BDD500031793 /* CuttingRope.hpp */,
+			);
+			path = "剪绳子";
 			sourceTree = "<group>";
 		};
 		0E914A4F216056D3001BB289 /* 机器人的运动范围 */ = {
@@ -288,6 +301,7 @@
 				0E2B0EB8214910B500223567 /* NextNodeInBinaryTrees.cpp in Sources */,
 				0E2B0EB42148B2DF00223567 /* ConstructBinaryTree.cpp in Sources */,
 				0E914A522160581E001BB289 /* RobotMove.cpp in Sources */,
+				0E853FC02179BDD500031793 /* CuttingRope.cpp in Sources */,
 				0E2B0EA12147565800223567 /* FindInPartiallySortedMatrix.cpp in Sources */,
 				0EAC27FF215B7DD7008A290C /* MinNumberInRotatedArray.cpp in Sources */,
 				0E6305422146059B00753993 /* main.cpp in Sources */,
