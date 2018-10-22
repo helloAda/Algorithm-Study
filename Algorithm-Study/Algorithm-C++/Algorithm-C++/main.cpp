@@ -20,6 +20,8 @@
 #include "StringPathInMatrix.hpp"
 #include "RobotMove.hpp"
 #include "CuttingRope.hpp"
+#include "NumberOf1InBinary.hpp"
+
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -34,6 +36,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_minNumberInRotatedArray::minNumberInRotatedArray();
 //    namespace_stringPathInMatrix::stringPathInMatrix();
 //    namespace_robotMove::robotMove();
-    namespace_cuttingRope::cuttingRope();
+//    namespace_cuttingRope::cuttingRope();
+    namespace_NumberOf1InBinary::numberOf1InBinary();
     return 0;
 }
