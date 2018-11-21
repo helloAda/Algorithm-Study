@@ -21,6 +21,7 @@
 #include "RobotMove.hpp"
 #include "CuttingRope.hpp"
 #include "NumberOf1InBinary.hpp"
+#include "Power.hpp"
 
 
 int main(int argc, const char * argv[]) {
@@ -37,6 +38,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_stringPathInMatrix::stringPathInMatrix();
 //    namespace_robotMove::robotMove();
 //    namespace_cuttingRope::cuttingRope();
-    namespace_NumberOf1InBinary::numberOf1InBinary();
+//    namespace_NumberOf1InBinary::numberOf1InBinary();
+    namespace_power::power();
     return 0;
 }

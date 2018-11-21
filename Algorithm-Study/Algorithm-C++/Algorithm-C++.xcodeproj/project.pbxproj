@@ -16,6 +16,7 @@
 		0E2B0EB42148B2DF00223567 /* ConstructBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B0EB22148B2DF00223567 /* ConstructBinaryTree.cpp */; };
 		0E2B0EB8214910B500223567 /* NextNodeInBinaryTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B0EB6214910B500223567 /* NextNodeInBinaryTrees.cpp */; };
 		0E2B0EBF214A445700223567 /* QueueWithTwoStacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B0EBD214A445700223567 /* QueueWithTwoStacks.cpp */; };
+		0E470F9621A3E6630055518D /* Power.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E470F9421A3E6630055518D /* Power.cpp */; };
 		0E6305422146059B00753993 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E6305412146059B00753993 /* main.cpp */; };
 		0E63054B2146086A00753993 /* FindDuplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E6305492146086A00753993 /* FindDuplication.cpp */; };
 		0E63054E2146553500753993 /* FindDuplicationNoEdit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E63054C2146553500753993 /* FindDuplicationNoEdit.cpp */; };
@@ -57,6 +58,8 @@
 		0E2B0EB7214910B500223567 /* NextNodeInBinaryTrees.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NextNodeInBinaryTrees.hpp; sourceTree = "<group>"; };
 		0E2B0EBD214A445700223567 /* QueueWithTwoStacks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QueueWithTwoStacks.cpp; sourceTree = "<group>"; };
 		0E2B0EBE214A445700223567 /* QueueWithTwoStacks.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QueueWithTwoStacks.hpp; sourceTree = "<group>"; };
+		0E470F9421A3E6630055518D /* Power.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Power.cpp; sourceTree = "<group>"; };
+		0E470F9521A3E6630055518D /* Power.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Power.hpp; sourceTree = "<group>"; };
 		0E63053E2146059B00753993 /* Algorithm-C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Algorithm-C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E6305412146059B00753993 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0E6305492146086A00753993 /* FindDuplication.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FindDuplication.cpp; sourceTree = "<group>"; };
@@ -169,6 +172,15 @@
 			path = "用两个栈实现队列";
 			sourceTree = "<group>";
 		};
+		0E470F9321A3E2E50055518D /* 数值的整数次方 */ = {
+			isa = PBXGroup;
+			children = (
+				0E470F9421A3E6630055518D /* Power.cpp */,
+				0E470F9521A3E6630055518D /* Power.hpp */,
+			);
+			path = "数值的整数次方";
+			sourceTree = "<group>";
+		};
 		0E6305352146059A00753993 = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +200,7 @@
 		0E6305402146059B00753993 /* Algorithm-C++ */ = {
 			isa = PBXGroup;
 			children = (
+				0E470F9321A3E2E50055518D /* 数值的整数次方 */,
 				0EA65796217ABBD2004FD216 /* 二进制中1的个数 */,
 				0E853FBD2179BB7D00031793 /* 剪绳子 */,
 				0E914A4F216056D3001BB289 /* 机器人的运动范围 */,
@@ -313,6 +326,7 @@
 				0E15D1602152508400136AB6 /* Fibonacci.cpp in Sources */,
 				0E2B0EB8214910B500223567 /* NextNodeInBinaryTrees.cpp in Sources */,
 				0E2B0EB42148B2DF00223567 /* ConstructBinaryTree.cpp in Sources */,
+				0E470F9621A3E6630055518D /* Power.cpp in Sources */,
 				0E914A522160581E001BB289 /* RobotMove.cpp in Sources */,
 				0E853FC02179BDD500031793 /* CuttingRope.cpp in Sources */,
 				0E2B0EA12147565800223567 /* FindInPartiallySortedMatrix.cpp in Sources */,
