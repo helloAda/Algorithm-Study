@@ -25,6 +25,7 @@
 		0EA65799217AD74B004FD216 /* NumberOf1InBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EA65797217AD74B004FD216 /* NumberOf1InBinary.cpp */; };
 		0EAC27FF215B7DD7008A290C /* MinNumberInRotatedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC27FD215B7DD7008A290C /* MinNumberInRotatedArray.cpp */; };
 		0ECB3739215EFE8F0035BE5D /* StringPathInMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB3737215EFE8F0035BE5D /* StringPathInMatrix.cpp */; };
+		0EE6B71D21A78A99008B661C /* Print1ToMaxOfNDigits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE6B71B21A78A99008B661C /* Print1ToMaxOfNDigits.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +77,8 @@
 		0EAC27FE215B7DD7008A290C /* MinNumberInRotatedArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinNumberInRotatedArray.hpp; sourceTree = "<group>"; };
 		0ECB3737215EFE8F0035BE5D /* StringPathInMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringPathInMatrix.cpp; sourceTree = "<group>"; };
 		0ECB3738215EFE8F0035BE5D /* StringPathInMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringPathInMatrix.hpp; sourceTree = "<group>"; };
+		0EE6B71B21A78A99008B661C /* Print1ToMaxOfNDigits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Print1ToMaxOfNDigits.cpp; sourceTree = "<group>"; };
+		0EE6B71C21A78A99008B661C /* Print1ToMaxOfNDigits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Print1ToMaxOfNDigits.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +203,7 @@
 		0E6305402146059B00753993 /* Algorithm-C++ */ = {
 			isa = PBXGroup;
 			children = (
+				0EE6B71721A789F9008B661C /* 打印从1到最大的n位数 */,
 				0E470F9321A3E2E50055518D /* 数值的整数次方 */,
 				0EA65796217ABBD2004FD216 /* 二进制中1的个数 */,
 				0E853FBD2179BB7D00031793 /* 剪绳子 */,
@@ -267,6 +271,15 @@
 			path = "矩阵中的路径";
 			sourceTree = "<group>";
 		};
+		0EE6B71721A789F9008B661C /* 打印从1到最大的n位数 */ = {
+			isa = PBXGroup;
+			children = (
+				0EE6B71B21A78A99008B661C /* Print1ToMaxOfNDigits.cpp */,
+				0EE6B71C21A78A99008B661C /* Print1ToMaxOfNDigits.hpp */,
+			);
+			path = "打印从1到最大的n位数";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -323,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EE6B71D21A78A99008B661C /* Print1ToMaxOfNDigits.cpp in Sources */,
 				0E15D1602152508400136AB6 /* Fibonacci.cpp in Sources */,
 				0E2B0EB8214910B500223567 /* NextNodeInBinaryTrees.cpp in Sources */,
 				0E2B0EB42148B2DF00223567 /* ConstructBinaryTree.cpp in Sources */,

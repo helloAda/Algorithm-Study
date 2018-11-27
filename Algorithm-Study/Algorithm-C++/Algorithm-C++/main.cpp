@@ -22,6 +22,7 @@
 #include "CuttingRope.hpp"
 #include "NumberOf1InBinary.hpp"
 #include "Power.hpp"
+#include "Print1ToMaxOfNDigits.hpp"
 
 
 int main(int argc, const char * argv[]) {
@@ -39,6 +40,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_robotMove::robotMove();
 //    namespace_cuttingRope::cuttingRope();
 //    namespace_NumberOf1InBinary::numberOf1InBinary();
-    namespace_power::power();
+//    namespace_power::power();
+    namespace_Print1ToMaxOfNDigits::print1ToMaxOfNDigits();
     return 0;
 }
