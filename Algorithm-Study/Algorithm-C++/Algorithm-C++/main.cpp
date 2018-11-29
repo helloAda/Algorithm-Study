@@ -23,7 +23,7 @@
 #include "NumberOf1InBinary.hpp"
 #include "Power.hpp"
 #include "Print1ToMaxOfNDigits.hpp"
-
+#include "DeleteNodeInList.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -41,6 +41,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_cuttingRope::cuttingRope();
 //    namespace_NumberOf1InBinary::numberOf1InBinary();
 //    namespace_power::power();
-    namespace_Print1ToMaxOfNDigits::print1ToMaxOfNDigits();
+//    namespace_Print1ToMaxOfNDigits::print1ToMaxOfNDigits();
+    namespace_deleteNodeInList::deleteNodeInList();
     return 0;
 }
