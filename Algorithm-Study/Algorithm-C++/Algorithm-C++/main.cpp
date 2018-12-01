@@ -25,6 +25,13 @@
 #include "Print1ToMaxOfNDigits.hpp"
 #include "DeleteNodeInList.hpp"
 #include "DeleteDuplicatedNode.hpp"
+#include "RegularExpressions.hpp"
+
+
+
+
+
+
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
 //    namespace_findDuplicationNoEdit::findDuplicationNoEdit();
@@ -43,6 +50,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_power::power();
 //    namespace_Print1ToMaxOfNDigits::print1ToMaxOfNDigits();
 //    namespace_deleteNodeInList::deleteNodeInList();
-    namespace_deleteDuplicatedNode::deleteDuplicatedNode();
+//    namespace_deleteDuplicatedNode::deleteDuplicatedNode();
+    namespace_regularExpressions::regularExpressions();
     return 0;
 }
