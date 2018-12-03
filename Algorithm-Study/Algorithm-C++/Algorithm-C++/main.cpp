@@ -26,11 +26,7 @@
 #include "DeleteNodeInList.hpp"
 #include "DeleteDuplicatedNode.hpp"
 #include "RegularExpressions.hpp"
-
-
-
-
-
+#include "NumericStrings.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -51,6 +47,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_Print1ToMaxOfNDigits::print1ToMaxOfNDigits();
 //    namespace_deleteNodeInList::deleteNodeInList();
 //    namespace_deleteDuplicatedNode::deleteDuplicatedNode();
-    namespace_regularExpressions::regularExpressions();
+//    namespace_regularExpressions::regularExpressions();
+    namespcae_numericStrings::numericStrings();
     return 0;
 }
