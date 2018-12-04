@@ -27,6 +27,7 @@
 #include "DeleteDuplicatedNode.hpp"
 #include "RegularExpressions.hpp"
 #include "NumericStrings.hpp"
+#include "ReorderArray.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -48,6 +49,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_deleteNodeInList::deleteNodeInList();
 //    namespace_deleteDuplicatedNode::deleteDuplicatedNode();
 //    namespace_regularExpressions::regularExpressions();
-    namespcae_numericStrings::numericStrings();
+//    namespcae_numericStrings::numericStrings();
+    namespace_reorderArray::reorderArray();
     return 0;
 }
