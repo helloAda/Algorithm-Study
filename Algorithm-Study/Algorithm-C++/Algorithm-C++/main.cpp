@@ -29,6 +29,7 @@
 #include "NumericStrings.hpp"
 #include "ReorderArray.hpp"
 #include "KthNodeFromEnd.hpp"
+#include "EntryNodeInListLoop.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -52,6 +53,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_regularExpressions::regularExpressions();
 //    namespcae_numericStrings::numericStrings();
 //    namespace_reorderArray::reorderArray();
-    namespace_kthNodeFromEnd::kthNodeFromEnd();
+//    namespace_kthNodeFromEnd::kthNodeFromEnd();
+    namespace_entryNodeInListLoop::entryNodeInListLoop();
     return 0;
 }
