@@ -30,6 +30,7 @@
 #include "ReorderArray.hpp"
 #include "KthNodeFromEnd.hpp"
 #include "EntryNodeInListLoop.hpp"
+#include "ReverseList.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -54,6 +55,7 @@ int main(int argc, const char * argv[]) {
 //    namespcae_numericStrings::numericStrings();
 //    namespace_reorderArray::reorderArray();
 //    namespace_kthNodeFromEnd::kthNodeFromEnd();
-    namespace_entryNodeInListLoop::entryNodeInListLoop();
+//    namespace_entryNodeInListLoop::entryNodeInListLoop();
+    namespace_reverseList::reverseList();
     return 0;
 }

@@ -24,6 +24,7 @@
 		0E63054B2146086A00753993 /* FindDuplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E6305492146086A00753993 /* FindDuplication.cpp */; };
 		0E63054E2146553500753993 /* FindDuplicationNoEdit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E63054C2146553500753993 /* FindDuplicationNoEdit.cpp */; };
 		0E65F3B021B75814006F14CA /* KthNodeFromEnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E65F3AE21B75814006F14CA /* KthNodeFromEnd.cpp */; };
+		0E70AD0321D5FC06000B4BAD /* ReverseList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E70AD0121D5FC06000B4BAD /* ReverseList.cpp */; };
 		0E7E2F8821B2154500C058E4 /* RegularExpressions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E2F8621B2154500C058E4 /* RegularExpressions.cpp */; };
 		0E853FC02179BDD500031793 /* CuttingRope.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E853FBE2179BDD500031793 /* CuttingRope.cpp */; };
 		0E8DCBD021B65E96000AF143 /* ReorderArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E8DCBCE21B65E96000AF143 /* ReorderArray.cpp */; };
@@ -82,6 +83,8 @@
 		0E63054D2146553500753993 /* FindDuplicationNoEdit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FindDuplicationNoEdit.hpp; sourceTree = "<group>"; };
 		0E65F3AE21B75814006F14CA /* KthNodeFromEnd.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KthNodeFromEnd.cpp; sourceTree = "<group>"; };
 		0E65F3AF21B75814006F14CA /* KthNodeFromEnd.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = KthNodeFromEnd.hpp; sourceTree = "<group>"; };
+		0E70AD0121D5FC06000B4BAD /* ReverseList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseList.cpp; sourceTree = "<group>"; };
+		0E70AD0221D5FC06000B4BAD /* ReverseList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ReverseList.hpp; sourceTree = "<group>"; };
 		0E7E2F8621B2154500C058E4 /* RegularExpressions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RegularExpressions.cpp; sourceTree = "<group>"; };
 		0E7E2F8721B2154500C058E4 /* RegularExpressions.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RegularExpressions.hpp; sourceTree = "<group>"; };
 		0E853FBE2179BDD500031793 /* CuttingRope.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CuttingRope.cpp; sourceTree = "<group>"; };
@@ -251,6 +254,7 @@
 		0E6305402146059B00753993 /* Algorithm-C++ */ = {
 			isa = PBXGroup;
 			children = (
+				0E70AD0021D5FBCE000B4BAD /* 反转链表 */,
 				0E65F3B121B7C559006F14CA /* 链表中环的入口节点 */,
 				0E65F3AD21B75644006F14CA /* 链表中倒数第k个节点 */,
 				0E8DCBCD21B65C81000AF143 /* 调整数组顺序使奇数在偶数前 */,
@@ -306,6 +310,15 @@
 				0EA1BCA521B8AC020017C30B /* EntryNodeInListLoop.hpp */,
 			);
 			path = "链表中环的入口节点";
+			sourceTree = "<group>";
+		};
+		0E70AD0021D5FBCE000B4BAD /* 反转链表 */ = {
+			isa = PBXGroup;
+			children = (
+				0E70AD0121D5FC06000B4BAD /* ReverseList.cpp */,
+				0E70AD0221D5FC06000B4BAD /* ReverseList.hpp */,
+			);
+			path = "反转链表";
 			sourceTree = "<group>";
 		};
 		0E7E2F8521B211F600C058E4 /* 正则表达式匹配 */ = {
@@ -436,6 +449,7 @@
 				0E3C3FB121B12F710058238C /* DeleteDuplicatedNode.cpp in Sources */,
 				0E4FD10B21B50246002B9E40 /* NumericStrings.cpp in Sources */,
 				0E3C3FAA21AF705A0058238C /* DeleteNodeInList.cpp in Sources */,
+				0E70AD0321D5FC06000B4BAD /* ReverseList.cpp in Sources */,
 				0E914A522160581E001BB289 /* RobotMove.cpp in Sources */,
 				0E853FC02179BDD500031793 /* CuttingRope.cpp in Sources */,
 				0E2B0EA12147565800223567 /* FindInPartiallySortedMatrix.cpp in Sources */,
