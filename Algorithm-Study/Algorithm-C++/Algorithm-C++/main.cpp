@@ -31,6 +31,7 @@
 #include "KthNodeFromEnd.hpp"
 #include "EntryNodeInListLoop.hpp"
 #include "ReverseList.hpp"
+#include "MergeSortedLists.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -56,6 +57,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_reorderArray::reorderArray();
 //    namespace_kthNodeFromEnd::kthNodeFromEnd();
 //    namespace_entryNodeInListLoop::entryNodeInListLoop();
-    namespace_reverseList::reverseList();
+//    namespace_reverseList::reverseList();
+    namespace_mergeSortedLists::mergeSortedList();
     return 0;
 }

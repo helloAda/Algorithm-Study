@@ -33,6 +33,7 @@
 		0EA65799217AD74B004FD216 /* NumberOf1InBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EA65797217AD74B004FD216 /* NumberOf1InBinary.cpp */; };
 		0EAC27FF215B7DD7008A290C /* MinNumberInRotatedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC27FD215B7DD7008A290C /* MinNumberInRotatedArray.cpp */; };
 		0ECB3739215EFE8F0035BE5D /* StringPathInMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB3737215EFE8F0035BE5D /* StringPathInMatrix.cpp */; };
+		0EE2B57F21D7219600C0D5D8 /* MergeSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE2B57D21D7219600C0D5D8 /* MergeSortedLists.cpp */; };
 		0EE6B71D21A78A99008B661C /* Print1ToMaxOfNDigits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE6B71B21A78A99008B661C /* Print1ToMaxOfNDigits.cpp */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +102,8 @@
 		0EAC27FE215B7DD7008A290C /* MinNumberInRotatedArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinNumberInRotatedArray.hpp; sourceTree = "<group>"; };
 		0ECB3737215EFE8F0035BE5D /* StringPathInMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StringPathInMatrix.cpp; sourceTree = "<group>"; };
 		0ECB3738215EFE8F0035BE5D /* StringPathInMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringPathInMatrix.hpp; sourceTree = "<group>"; };
+		0EE2B57D21D7219600C0D5D8 /* MergeSortedLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSortedLists.cpp; sourceTree = "<group>"; };
+		0EE2B57E21D7219600C0D5D8 /* MergeSortedLists.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeSortedLists.hpp; sourceTree = "<group>"; };
 		0EE6B71B21A78A99008B661C /* Print1ToMaxOfNDigits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Print1ToMaxOfNDigits.cpp; sourceTree = "<group>"; };
 		0EE6B71C21A78A99008B661C /* Print1ToMaxOfNDigits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Print1ToMaxOfNDigits.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -254,6 +257,7 @@
 		0E6305402146059B00753993 /* Algorithm-C++ */ = {
 			isa = PBXGroup;
 			children = (
+				0EE2B57C21D7208500C0D5D8 /* 合并两个排序链表 */,
 				0E70AD0021D5FBCE000B4BAD /* 反转链表 */,
 				0E65F3B121B7C559006F14CA /* 链表中环的入口节点 */,
 				0E65F3AD21B75644006F14CA /* 链表中倒数第k个节点 */,
@@ -375,6 +379,15 @@
 			path = "矩阵中的路径";
 			sourceTree = "<group>";
 		};
+		0EE2B57C21D7208500C0D5D8 /* 合并两个排序链表 */ = {
+			isa = PBXGroup;
+			children = (
+				0EE2B57D21D7219600C0D5D8 /* MergeSortedLists.cpp */,
+				0EE2B57E21D7219600C0D5D8 /* MergeSortedLists.hpp */,
+			);
+			path = "合并两个排序链表";
+			sourceTree = "<group>";
+		};
 		0EE6B71721A789F9008B661C /* 打印从1到最大的n位数 */ = {
 			isa = PBXGroup;
 			children = (
@@ -465,6 +478,7 @@
 				0EA1BCA621B8AC020017C30B /* EntryNodeInListLoop.cpp in Sources */,
 				0E7E2F8821B2154500C058E4 /* RegularExpressions.cpp in Sources */,
 				0E63054E2146553500753993 /* FindDuplicationNoEdit.cpp in Sources */,
+				0EE2B57F21D7219600C0D5D8 /* MergeSortedLists.cpp in Sources */,
 				0E2B0EB02148A8CD00223567 /* BinaryTreeNode.cpp in Sources */,
 				0E63054B2146086A00753993 /* FindDuplication.cpp in Sources */,
 			);
