@@ -18,6 +18,7 @@
 		0E2B0EBF214A445700223567 /* QueueWithTwoStacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B0EBD214A445700223567 /* QueueWithTwoStacks.cpp */; };
 		0E3C3FAA21AF705A0058238C /* DeleteNodeInList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C3FA821AF705A0058238C /* DeleteNodeInList.cpp */; };
 		0E3C3FB121B12F710058238C /* DeleteDuplicatedNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C3FAF21B12F710058238C /* DeleteDuplicatedNode.cpp */; };
+		0E457C6F21E0A3890061651D /* SubstructureInTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E457C6D21E0A3890061651D /* SubstructureInTree.cpp */; };
 		0E470F9621A3E6630055518D /* Power.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E470F9421A3E6630055518D /* Power.cpp */; };
 		0E4FD10B21B50246002B9E40 /* NumericStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FD10921B50246002B9E40 /* NumericStrings.cpp */; };
 		0E6305422146059B00753993 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E6305412146059B00753993 /* main.cpp */; };
@@ -72,6 +73,8 @@
 		0E3C3FA921AF705A0058238C /* DeleteNodeInList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DeleteNodeInList.hpp; sourceTree = "<group>"; };
 		0E3C3FAF21B12F710058238C /* DeleteDuplicatedNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeleteDuplicatedNode.cpp; sourceTree = "<group>"; };
 		0E3C3FB021B12F710058238C /* DeleteDuplicatedNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DeleteDuplicatedNode.hpp; sourceTree = "<group>"; };
+		0E457C6D21E0A3890061651D /* SubstructureInTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SubstructureInTree.cpp; sourceTree = "<group>"; };
+		0E457C6E21E0A3890061651D /* SubstructureInTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SubstructureInTree.hpp; sourceTree = "<group>"; };
 		0E470F9421A3E6630055518D /* Power.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Power.cpp; sourceTree = "<group>"; };
 		0E470F9521A3E6630055518D /* Power.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Power.hpp; sourceTree = "<group>"; };
 		0E4FD10921B50246002B9E40 /* NumericStrings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumericStrings.cpp; sourceTree = "<group>"; };
@@ -220,6 +223,15 @@
 			path = "删除链表中重复的节点";
 			sourceTree = "<group>";
 		};
+		0E457C6C21E0A2EE0061651D /* 树的子结构 */ = {
+			isa = PBXGroup;
+			children = (
+				0E457C6D21E0A3890061651D /* SubstructureInTree.cpp */,
+				0E457C6E21E0A3890061651D /* SubstructureInTree.hpp */,
+			);
+			path = "树的子结构";
+			sourceTree = "<group>";
+		};
 		0E470F9321A3E2E50055518D /* 数值的整数次方 */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +269,7 @@
 		0E6305402146059B00753993 /* Algorithm-C++ */ = {
 			isa = PBXGroup;
 			children = (
+				0E457C6C21E0A2EE0061651D /* 树的子结构 */,
 				0EE2B57C21D7208500C0D5D8 /* 合并两个排序链表 */,
 				0E70AD0021D5FBCE000B4BAD /* 反转链表 */,
 				0E65F3B121B7C559006F14CA /* 链表中环的入口节点 */,
@@ -466,6 +479,7 @@
 				0E914A522160581E001BB289 /* RobotMove.cpp in Sources */,
 				0E853FC02179BDD500031793 /* CuttingRope.cpp in Sources */,
 				0E2B0EA12147565800223567 /* FindInPartiallySortedMatrix.cpp in Sources */,
+				0E457C6F21E0A3890061651D /* SubstructureInTree.cpp in Sources */,
 				0EAC27FF215B7DD7008A290C /* MinNumberInRotatedArray.cpp in Sources */,
 				0E6305422146059B00753993 /* main.cpp in Sources */,
 				0E2B0EA521476A4F00223567 /* ReplaceSpaces.cpp in Sources */,
