@@ -36,6 +36,7 @@
 		0ECB3739215EFE8F0035BE5D /* StringPathInMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB3737215EFE8F0035BE5D /* StringPathInMatrix.cpp */; };
 		0EE2B57F21D7219600C0D5D8 /* MergeSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE2B57D21D7219600C0D5D8 /* MergeSortedLists.cpp */; };
 		0EE6B71D21A78A99008B661C /* Print1ToMaxOfNDigits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE6B71B21A78A99008B661C /* Print1ToMaxOfNDigits.cpp */; };
+		77C4B76722019AD800870173 /* MirrorOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C4B76522019AD800870173 /* MirrorOfBinaryTree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,6 +110,8 @@
 		0EE2B57E21D7219600C0D5D8 /* MergeSortedLists.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeSortedLists.hpp; sourceTree = "<group>"; };
 		0EE6B71B21A78A99008B661C /* Print1ToMaxOfNDigits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Print1ToMaxOfNDigits.cpp; sourceTree = "<group>"; };
 		0EE6B71C21A78A99008B661C /* Print1ToMaxOfNDigits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Print1ToMaxOfNDigits.hpp; sourceTree = "<group>"; };
+		77C4B76522019AD800870173 /* MirrorOfBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MirrorOfBinaryTree.cpp; sourceTree = "<group>"; };
+		77C4B76622019AD800870173 /* MirrorOfBinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MirrorOfBinaryTree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +272,7 @@
 		0E6305402146059B00753993 /* Algorithm-C++ */ = {
 			isa = PBXGroup;
 			children = (
+				77C4B764220197B500870173 /* 二叉树的镜像 */,
 				0E457C6C21E0A2EE0061651D /* 树的子结构 */,
 				0EE2B57C21D7208500C0D5D8 /* 合并两个排序链表 */,
 				0E70AD0021D5FBCE000B4BAD /* 反转链表 */,
@@ -410,6 +414,15 @@
 			path = "打印从1到最大的n位数";
 			sourceTree = "<group>";
 		};
+		77C4B764220197B500870173 /* 二叉树的镜像 */ = {
+			isa = PBXGroup;
+			children = (
+				77C4B76522019AD800870173 /* MirrorOfBinaryTree.cpp */,
+				77C4B76622019AD800870173 /* MirrorOfBinaryTree.hpp */,
+			);
+			path = "二叉树的镜像";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -492,6 +505,7 @@
 				0EA1BCA621B8AC020017C30B /* EntryNodeInListLoop.cpp in Sources */,
 				0E7E2F8821B2154500C058E4 /* RegularExpressions.cpp in Sources */,
 				0E63054E2146553500753993 /* FindDuplicationNoEdit.cpp in Sources */,
+				77C4B76722019AD800870173 /* MirrorOfBinaryTree.cpp in Sources */,
 				0EE2B57F21D7219600C0D5D8 /* MergeSortedLists.cpp in Sources */,
 				0E2B0EB02148A8CD00223567 /* BinaryTreeNode.cpp in Sources */,
 				0E63054B2146086A00753993 /* FindDuplication.cpp in Sources */,

@@ -33,6 +33,7 @@
 #include "ReverseList.hpp"
 #include "MergeSortedLists.hpp"
 #include "SubstructureInTree.hpp"
+#include "MirrorOfBinaryTree.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -60,6 +61,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_entryNodeInListLoop::entryNodeInListLoop();
 //    namespace_reverseList::reverseList();
 //    namespace_mergeSortedLists::mergeSortedList();
-    namespace_substructureInTree::substructureInTree();
+//    namespace_substructureInTree::substructureInTree();
+    namespace_mirrorOfBinaryTree::mirrorOfBinaryTree();
     return 0;
 }
