@@ -37,6 +37,7 @@
 		0EE2B57F21D7219600C0D5D8 /* MergeSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE2B57D21D7219600C0D5D8 /* MergeSortedLists.cpp */; };
 		0EE6B71D21A78A99008B661C /* Print1ToMaxOfNDigits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE6B71B21A78A99008B661C /* Print1ToMaxOfNDigits.cpp */; };
 		77C4B76722019AD800870173 /* MirrorOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C4B76522019AD800870173 /* MirrorOfBinaryTree.cpp */; };
+		77D645572209A046007FABB9 /* SymmetricalBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77D645552209A046007FABB9 /* SymmetricalBinaryTree.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -112,6 +113,8 @@
 		0EE6B71C21A78A99008B661C /* Print1ToMaxOfNDigits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Print1ToMaxOfNDigits.hpp; sourceTree = "<group>"; };
 		77C4B76522019AD800870173 /* MirrorOfBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MirrorOfBinaryTree.cpp; sourceTree = "<group>"; };
 		77C4B76622019AD800870173 /* MirrorOfBinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MirrorOfBinaryTree.hpp; sourceTree = "<group>"; };
+		77D645552209A046007FABB9 /* SymmetricalBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SymmetricalBinaryTree.cpp; sourceTree = "<group>"; };
+		77D645562209A046007FABB9 /* SymmetricalBinaryTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SymmetricalBinaryTree.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +275,7 @@
 		0E6305402146059B00753993 /* Algorithm-C++ */ = {
 			isa = PBXGroup;
 			children = (
+				77D6455422099761007FABB9 /* 对称的二叉树 */,
 				77C4B764220197B500870173 /* 二叉树的镜像 */,
 				0E457C6C21E0A2EE0061651D /* 树的子结构 */,
 				0EE2B57C21D7208500C0D5D8 /* 合并两个排序链表 */,
@@ -423,6 +427,15 @@
 			path = "二叉树的镜像";
 			sourceTree = "<group>";
 		};
+		77D6455422099761007FABB9 /* 对称的二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				77D645552209A046007FABB9 /* SymmetricalBinaryTree.cpp */,
+				77D645562209A046007FABB9 /* SymmetricalBinaryTree.hpp */,
+			);
+			path = "对称的二叉树";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -489,6 +502,7 @@
 				0E4FD10B21B50246002B9E40 /* NumericStrings.cpp in Sources */,
 				0E3C3FAA21AF705A0058238C /* DeleteNodeInList.cpp in Sources */,
 				0E70AD0321D5FC06000B4BAD /* ReverseList.cpp in Sources */,
+				77D645572209A046007FABB9 /* SymmetricalBinaryTree.cpp in Sources */,
 				0E914A522160581E001BB289 /* RobotMove.cpp in Sources */,
 				0E853FC02179BDD500031793 /* CuttingRope.cpp in Sources */,
 				0E2B0EA12147565800223567 /* FindInPartiallySortedMatrix.cpp in Sources */,
