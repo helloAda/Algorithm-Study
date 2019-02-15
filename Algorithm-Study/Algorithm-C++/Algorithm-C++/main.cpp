@@ -35,6 +35,7 @@
 #include "SubstructureInTree.hpp"
 #include "MirrorOfBinaryTree.hpp"
 #include "SymmetricalBinaryTree.hpp"
+#include "PrintMatrix.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -64,6 +65,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_mergeSortedLists::mergeSortedList();
 //    namespace_substructureInTree::substructureInTree();
 //    namespace_mirrorOfBinaryTree::mirrorOfBinaryTree();
-    namespace_symmetricalBinaryTree::symmetricalBinaryTree();
+//    namespace_symmetricalBinaryTree::symmetricalBinaryTree();
+    namespace_printMatrix::printMatrix();
     return 0;
 }
