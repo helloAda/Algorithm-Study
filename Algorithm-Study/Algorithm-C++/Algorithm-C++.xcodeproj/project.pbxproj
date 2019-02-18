@@ -17,6 +17,7 @@
 		0E2B0EB8214910B500223567 /* NextNodeInBinaryTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B0EB6214910B500223567 /* NextNodeInBinaryTrees.cpp */; };
 		0E2B0EBF214A445700223567 /* QueueWithTwoStacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E2B0EBD214A445700223567 /* QueueWithTwoStacks.cpp */; };
 		0E37B4462217B3B100F2F6B1 /* MinInStack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E37B4442217B3B100F2F6B1 /* MinInStack.cpp */; };
+		0E37B44B221AA0A800F2F6B1 /* StackPushPopOrder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E37B449221AA0A800F2F6B1 /* StackPushPopOrder.cpp */; };
 		0E3C3FAA21AF705A0058238C /* DeleteNodeInList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C3FA821AF705A0058238C /* DeleteNodeInList.cpp */; };
 		0E3C3FB121B12F710058238C /* DeleteDuplicatedNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E3C3FAF21B12F710058238C /* DeleteDuplicatedNode.cpp */; };
 		0E457C6F21E0A3890061651D /* SubstructureInTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E457C6D21E0A3890061651D /* SubstructureInTree.cpp */; };
@@ -76,6 +77,8 @@
 		0E37B4442217B3B100F2F6B1 /* MinInStack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinInStack.cpp; sourceTree = "<group>"; };
 		0E37B4452217B3B100F2F6B1 /* MinInStack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinInStack.hpp; sourceTree = "<group>"; };
 		0E37B4472217EB0A00F2F6B1 /* StackWithMin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackWithMin.h; sourceTree = "<group>"; };
+		0E37B449221AA0A800F2F6B1 /* StackPushPopOrder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StackPushPopOrder.cpp; sourceTree = "<group>"; };
+		0E37B44A221AA0A800F2F6B1 /* StackPushPopOrder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StackPushPopOrder.hpp; sourceTree = "<group>"; };
 		0E3C3FA821AF705A0058238C /* DeleteNodeInList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeleteNodeInList.cpp; sourceTree = "<group>"; };
 		0E3C3FA921AF705A0058238C /* DeleteNodeInList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DeleteNodeInList.hpp; sourceTree = "<group>"; };
 		0E3C3FAF21B12F710058238C /* DeleteDuplicatedNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeleteDuplicatedNode.cpp; sourceTree = "<group>"; };
@@ -228,6 +231,15 @@
 			path = "包含min函数的栈";
 			sourceTree = "<group>";
 		};
+		0E37B448221A9CFB00F2F6B1 /* 栈的压入、弹出序列 */ = {
+			isa = PBXGroup;
+			children = (
+				0E37B449221AA0A800F2F6B1 /* StackPushPopOrder.cpp */,
+				0E37B44A221AA0A800F2F6B1 /* StackPushPopOrder.hpp */,
+			);
+			path = "栈的压入、弹出序列";
+			sourceTree = "<group>";
+		};
 		0E3C3FA721AF6EB30058238C /* 删除链表的节点 */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,6 +304,7 @@
 		0E6305402146059B00753993 /* Algorithm-C++ */ = {
 			isa = PBXGroup;
 			children = (
+				0E37B448221A9CFB00F2F6B1 /* 栈的压入、弹出序列 */,
 				0E37B4432217AEC500F2F6B1 /* 包含min函数的栈 */,
 				0EBBF90822155B7700F22C4D /* 顺时针打印矩阵 */,
 				77D6455422099761007FABB9 /* 对称的二叉树 */,
@@ -529,6 +542,7 @@
 				0E470F9621A3E6630055518D /* Power.cpp in Sources */,
 				0E3C3FB121B12F710058238C /* DeleteDuplicatedNode.cpp in Sources */,
 				0E4FD10B21B50246002B9E40 /* NumericStrings.cpp in Sources */,
+				0E37B44B221AA0A800F2F6B1 /* StackPushPopOrder.cpp in Sources */,
 				0E3C3FAA21AF705A0058238C /* DeleteNodeInList.cpp in Sources */,
 				0E70AD0321D5FC06000B4BAD /* ReverseList.cpp in Sources */,
 				77D645572209A046007FABB9 /* SymmetricalBinaryTree.cpp in Sources */,

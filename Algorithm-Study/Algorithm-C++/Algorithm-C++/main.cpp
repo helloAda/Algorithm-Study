@@ -37,6 +37,7 @@
 #include "SymmetricalBinaryTree.hpp"
 #include "PrintMatrix.hpp"
 #include "MinInStack.hpp"
+#include "StackPushPopOrder.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -68,6 +69,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_mirrorOfBinaryTree::mirrorOfBinaryTree();
 //    namespace_symmetricalBinaryTree::symmetricalBinaryTree();
 //    namespace_printMatrix::printMatrix();
-    namespace_minInStack::minInStack();
+//    namespace_minInStack::minInStack();
+    namespace_stackPushPopOrder::stackPushPopOrder();
     return 0;
 }
