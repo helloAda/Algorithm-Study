@@ -39,6 +39,7 @@
 #include "MinInStack.hpp"
 #include "StackPushPopOrder.hpp"
 #include "PrintTreeFromTopToBottom.hpp"
+#include "PrintTreeInLines.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -72,6 +73,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_printMatrix::printMatrix();
 //    namespace_minInStack::minInStack();
 //    namespace_stackPushPopOrder::stackPushPopOrder();
-    namespace_printTreeFromTopToBottom::printTreeFromTopToBottom();
+//    namespace_printTreeFromTopToBottom::printTreeFromTopToBottom();
+    namespace_printTreeInLines::printTreeInLines();
     return 0;
 }
