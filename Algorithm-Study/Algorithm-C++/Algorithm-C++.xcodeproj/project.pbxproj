@@ -40,6 +40,7 @@
 		0EBBF90B22155C5300F22C4D /* PrintMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EBBF90922155C5300F22C4D /* PrintMatrix.cpp */; };
 		0ECB3739215EFE8F0035BE5D /* StringPathInMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB3737215EFE8F0035BE5D /* StringPathInMatrix.cpp */; };
 		0EE2B57F21D7219600C0D5D8 /* MergeSortedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE2B57D21D7219600C0D5D8 /* MergeSortedLists.cpp */; };
+		0EE52D8F2225160500828667 /* PrintTreeInZigzag.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE52D8D2225160500828667 /* PrintTreeInZigzag.cpp */; };
 		0EE6B71D21A78A99008B661C /* Print1ToMaxOfNDigits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EE6B71B21A78A99008B661C /* Print1ToMaxOfNDigits.cpp */; };
 		77C4B76722019AD800870173 /* MirrorOfBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77C4B76522019AD800870173 /* MirrorOfBinaryTree.cpp */; };
 		77D645572209A046007FABB9 /* SymmetricalBinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77D645552209A046007FABB9 /* SymmetricalBinaryTree.cpp */; };
@@ -125,6 +126,8 @@
 		0ECB3738215EFE8F0035BE5D /* StringPathInMatrix.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StringPathInMatrix.hpp; sourceTree = "<group>"; };
 		0EE2B57D21D7219600C0D5D8 /* MergeSortedLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSortedLists.cpp; sourceTree = "<group>"; };
 		0EE2B57E21D7219600C0D5D8 /* MergeSortedLists.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeSortedLists.hpp; sourceTree = "<group>"; };
+		0EE52D8D2225160500828667 /* PrintTreeInZigzag.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrintTreeInZigzag.cpp; sourceTree = "<group>"; };
+		0EE52D8E2225160500828667 /* PrintTreeInZigzag.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PrintTreeInZigzag.hpp; sourceTree = "<group>"; };
 		0EE6B71B21A78A99008B661C /* Print1ToMaxOfNDigits.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Print1ToMaxOfNDigits.cpp; sourceTree = "<group>"; };
 		0EE6B71C21A78A99008B661C /* Print1ToMaxOfNDigits.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Print1ToMaxOfNDigits.hpp; sourceTree = "<group>"; };
 		77C4B76522019AD800870173 /* MirrorOfBinaryTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MirrorOfBinaryTree.cpp; sourceTree = "<group>"; };
@@ -328,6 +331,7 @@
 		0E6305402146059B00753993 /* Algorithm-C++ */ = {
 			isa = PBXGroup;
 			children = (
+				0EE52D8C222512CD00828667 /* 之字型打印二叉树 */,
 				0E37B4502223829300F2F6B1 /* 分行从上到下打印二叉树 */,
 				0E37B44C221B909800F2F6B1 /* 从上到下打印二叉树 */,
 				0E37B448221A9CFB00F2F6B1 /* 栈的压入、弹出序列 */,
@@ -476,6 +480,15 @@
 			path = "合并两个排序链表";
 			sourceTree = "<group>";
 		};
+		0EE52D8C222512CD00828667 /* 之字型打印二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				0EE52D8D2225160500828667 /* PrintTreeInZigzag.cpp */,
+				0EE52D8E2225160500828667 /* PrintTreeInZigzag.hpp */,
+			);
+			path = "之字型打印二叉树";
+			sourceTree = "<group>";
+		};
 		0EE6B71721A789F9008B661C /* 打印从1到最大的n位数 */ = {
 			isa = PBXGroup;
 			children = (
@@ -582,6 +595,7 @@
 				0E2B0EA521476A4F00223567 /* ReplaceSpaces.cpp in Sources */,
 				0E65F3B021B75814006F14CA /* KthNodeFromEnd.cpp in Sources */,
 				0E2B0EAA2147B89F00223567 /* List.cpp in Sources */,
+				0EE52D8F2225160500828667 /* PrintTreeInZigzag.cpp in Sources */,
 				0EA65799217AD74B004FD216 /* NumberOf1InBinary.cpp in Sources */,
 				0E37B4532223839300F2F6B1 /* PrintTreeInLines.cpp in Sources */,
 				0E2B0EBF214A445700223567 /* QueueWithTwoStacks.cpp in Sources */,
