@@ -41,6 +41,7 @@
 #include "PrintTreeFromTopToBottom.hpp"
 #include "PrintTreeInLines.hpp"
 #include "PrintTreeInZigzag.hpp"
+#include "SquenceOfBST.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -76,6 +77,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_stackPushPopOrder::stackPushPopOrder();
 //    namespace_printTreeFromTopToBottom::printTreeFromTopToBottom();
 //    namespace_printTreeInLines::printTreeInLines();
-    namespace_printTreeInZigzag::printTreeInZigzag();
+//    namespace_printTreeInZigzag::printTreeInZigzag();
+    namespace_squenceOfBST::squenceOfBST();
     return 0;
 }
