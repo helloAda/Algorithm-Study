@@ -42,6 +42,7 @@
 #include "PrintTreeInLines.hpp"
 #include "PrintTreeInZigzag.hpp"
 #include "SquenceOfBST.hpp"
+#include "PathInTree.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -78,6 +79,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_printTreeFromTopToBottom::printTreeFromTopToBottom();
 //    namespace_printTreeInLines::printTreeInLines();
 //    namespace_printTreeInZigzag::printTreeInZigzag();
-    namespace_squenceOfBST::squenceOfBST();
+//    namespace_squenceOfBST::squenceOfBST();
+    namespace_pathInTree::pathInTree();
     return 0;
 }
