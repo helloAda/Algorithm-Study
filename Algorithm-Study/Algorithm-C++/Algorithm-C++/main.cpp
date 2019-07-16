@@ -43,6 +43,7 @@
 #include "PrintTreeInZigzag.hpp"
 #include "SquenceOfBST.hpp"
 #include "PathInTree.hpp"
+#include "CopyComplexList.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -80,6 +81,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_printTreeInLines::printTreeInLines();
 //    namespace_printTreeInZigzag::printTreeInZigzag();
 //    namespace_squenceOfBST::squenceOfBST();
-    namespace_pathInTree::pathInTree();
+//    namespace_pathInTree::pathInTree();
+    namespace_copyComplexList::copyComplexList();
     return 0;
 }
