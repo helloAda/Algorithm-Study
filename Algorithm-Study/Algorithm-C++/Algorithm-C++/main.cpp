@@ -44,6 +44,7 @@
 #include "SquenceOfBST.hpp"
 #include "PathInTree.hpp"
 #include "CopyComplexList.hpp"
+#include "ConvertBinarySearchTree.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -82,6 +83,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_printTreeInZigzag::printTreeInZigzag();
 //    namespace_squenceOfBST::squenceOfBST();
 //    namespace_pathInTree::pathInTree();
-    namespace_copyComplexList::copyComplexList();
+//    namespace_copyComplexList::copyComplexList();
+    namespace_convertBinarySearchTree::convertBinarySearchTree();
     return 0;
 }
