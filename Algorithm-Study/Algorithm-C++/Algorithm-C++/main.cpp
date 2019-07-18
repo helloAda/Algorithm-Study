@@ -45,6 +45,7 @@
 #include "PathInTree.hpp"
 #include "CopyComplexList.hpp"
 #include "ConvertBinarySearchTree.hpp"
+#include "SerializeBinaryTrees.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -84,6 +85,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_squenceOfBST::squenceOfBST();
 //    namespace_pathInTree::pathInTree();
 //    namespace_copyComplexList::copyComplexList();
-    namespace_convertBinarySearchTree::convertBinarySearchTree();
+//    namespace_convertBinarySearchTree::convertBinarySearchTree();
+    namespace_serializeBinaryTrees::serializeBinaryTrees();
     return 0;
 }

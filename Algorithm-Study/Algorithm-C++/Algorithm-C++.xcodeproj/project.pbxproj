@@ -37,6 +37,7 @@
 		0E914A522160581E001BB289 /* RobotMove.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0E914A502160581E001BB289 /* RobotMove.cpp */; };
 		0EA1BCA621B8AC020017C30B /* EntryNodeInListLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EA1BCA421B8AC020017C30B /* EntryNodeInListLoop.cpp */; };
 		0EA65799217AD74B004FD216 /* NumberOf1InBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EA65797217AD74B004FD216 /* NumberOf1InBinary.cpp */; };
+		0EAA908822E004C50050AB6A /* SerializeBinaryTrees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EAA908622E004C50050AB6A /* SerializeBinaryTrees.cpp */; };
 		0EAC27FF215B7DD7008A290C /* MinNumberInRotatedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EAC27FD215B7DD7008A290C /* MinNumberInRotatedArray.cpp */; };
 		0EBBF90B22155C5300F22C4D /* PrintMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0EBBF90922155C5300F22C4D /* PrintMatrix.cpp */; };
 		0ECB3739215EFE8F0035BE5D /* StringPathInMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB3737215EFE8F0035BE5D /* StringPathInMatrix.cpp */; };
@@ -125,6 +126,8 @@
 		0EA1BCA521B8AC020017C30B /* EntryNodeInListLoop.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EntryNodeInListLoop.hpp; sourceTree = "<group>"; };
 		0EA65797217AD74B004FD216 /* NumberOf1InBinary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NumberOf1InBinary.cpp; sourceTree = "<group>"; };
 		0EA65798217AD74B004FD216 /* NumberOf1InBinary.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NumberOf1InBinary.hpp; sourceTree = "<group>"; };
+		0EAA908622E004C50050AB6A /* SerializeBinaryTrees.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SerializeBinaryTrees.cpp; sourceTree = "<group>"; };
+		0EAA908722E004C50050AB6A /* SerializeBinaryTrees.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SerializeBinaryTrees.hpp; sourceTree = "<group>"; };
 		0EAC27FD215B7DD7008A290C /* MinNumberInRotatedArray.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MinNumberInRotatedArray.cpp; sourceTree = "<group>"; };
 		0EAC27FE215B7DD7008A290C /* MinNumberInRotatedArray.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MinNumberInRotatedArray.hpp; sourceTree = "<group>"; };
 		0EBBF90922155C5300F22C4D /* PrintMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PrintMatrix.cpp; sourceTree = "<group>"; };
@@ -346,6 +349,7 @@
 		0E6305402146059B00753993 /* Algorithm-C++ */ = {
 			isa = PBXGroup;
 			children = (
+				0EAA908522E004930050AB6A /* 序列化二叉树 */,
 				0EF19E8422DEB3F6002C4E7C /* 二叉搜索树与双向链表 */,
 				0EED893922DC219A0039231B /* 复杂链表的复制 */,
 				77F3E77E223FC4D100D73574 /* 二叉树中和为某一值的路径 */,
@@ -470,6 +474,15 @@
 				0EA65798217AD74B004FD216 /* NumberOf1InBinary.hpp */,
 			);
 			path = "二进制中1的个数";
+			sourceTree = "<group>";
+		};
+		0EAA908522E004930050AB6A /* 序列化二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				0EAA908622E004C50050AB6A /* SerializeBinaryTrees.cpp */,
+				0EAA908722E004C50050AB6A /* SerializeBinaryTrees.hpp */,
+			);
+			path = "序列化二叉树";
 			sourceTree = "<group>";
 		};
 		0EAC2800215CBC65008A290C /* 矩阵中的路径 */ = {
@@ -667,6 +680,7 @@
 				0E63054E2146553500753993 /* FindDuplicationNoEdit.cpp in Sources */,
 				77C4B76722019AD800870173 /* MirrorOfBinaryTree.cpp in Sources */,
 				0EE2B57F21D7219600C0D5D8 /* MergeSortedLists.cpp in Sources */,
+				0EAA908822E004C50050AB6A /* SerializeBinaryTrees.cpp in Sources */,
 				0E37B44F221B912C00F2F6B1 /* PrintTreeFromTopToBottom.cpp in Sources */,
 				0E2B0EB02148A8CD00223567 /* BinaryTreeNode.cpp in Sources */,
 				0EF19E8722DEB7CF002C4E7C /* ConvertBinarySearchTree.cpp in Sources */,
