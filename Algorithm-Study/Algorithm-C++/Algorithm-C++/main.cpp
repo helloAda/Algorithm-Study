@@ -47,6 +47,7 @@
 #include "ConvertBinarySearchTree.hpp"
 #include "SerializeBinaryTrees.hpp"
 #include "StringPermutation.hpp"
+#include "MoreThanHalfNumber.hpp"
 
 int main(int argc, const char * argv[]) {
 //    namespace_findDuplication::findDuplication();
@@ -88,6 +89,7 @@ int main(int argc, const char * argv[]) {
 //    namespace_copyComplexList::copyComplexList();
 //    namespace_convertBinarySearchTree::convertBinarySearchTree();
 //    namespace_serializeBinaryTrees::serializeBinaryTrees();
-    namespace_stringPermutation::stringPermutation();
+//    namespace_stringPermutation::stringPermutation();
+    namespace_moreThanHalfNumber::moreThanHalfNumber();
     return 0;
 }
